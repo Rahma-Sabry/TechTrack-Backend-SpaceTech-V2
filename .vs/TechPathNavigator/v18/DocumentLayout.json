@@ -1,0 +1,1996 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|solutionrelative:techtrack.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.api\\techtrack.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|solutionrelative:techtrack.api\\techtrack.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.api\\techtrack.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|solutionrelative:techtrack.api\\techtrack.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|solutionrelative:techtrack.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\irepo\\iroadmapsteprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\irepo\\iroadmapsteprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\irepo\\iroadmaprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\irepo\\iroadmaprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\repo\\subcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\repo\\subcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\repo\\technologyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\repo\\technologyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\repo\\roadmaprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\repo\\roadmaprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\repo\\companytechnologyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\repo\\companytechnologyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\repo\\interviewquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\repo\\interviewquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\repo\\roadmapsteprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\repo\\roadmapsteprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.api\\middleware\\globalexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|solutionrelative:techtrack.api\\middleware\\globalexceptionhandlermiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.api\\middleware\\corsmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|solutionrelative:techtrack.api\\middleware\\corsmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\repo\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\repo\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\service\\usertechnologyreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\service\\usertechnologyreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\common\\messages\\apimessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\common\\messages\\apimessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\iservice\\iusertechnologyreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\iservice\\iusertechnologyreviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\irepo\\iusertechnologyreviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\irepo\\iusertechnologyreviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\extensions\\usertechnologyreviewmappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\extensions\\usertechnologyreviewmappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\repo\\usertechnologyreviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\repo\\usertechnologyreviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\usertechnologyreview\\usertechnologyreviewcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\usertechnologyreview\\usertechnologyreviewcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\usertechnologyreview\\usertechnologyreviewgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\usertechnologyreview\\usertechnologyreviewgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\usertechnologyreview\\usertechnologyreviewupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\usertechnologyreview\\usertechnologyreviewupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\models\\usertechnologyreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\models\\usertechnologyreview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.api\\controllers\\interviewquestioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|solutionrelative:techtrack.api\\controllers\\interviewquestioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|solutionrelative:techtrack.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\iservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\user\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\user\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\service\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\extensions\\usermappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\extensions\\usermappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\repo\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\repo\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\irepo\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\irepo\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\user\\usergetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\user\\usergetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\user\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\user\\usercreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\track\\trackcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\track\\trackcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\service\\interviewquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\service\\interviewquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\extensions\\interviewquestionmappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\extensions\\interviewquestionmappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\interviewquestion\\interviewquestionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\interviewquestion\\interviewquestionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\interviewquestion\\interviewquestioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\interviewquestion\\interviewquestioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\interviewquestion\\interviewquestiongetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\interviewquestion\\interviewquestiongetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\iservice\\iinterviewquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\iservice\\iinterviewquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\irepo\\iinterviewquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\irepo\\iinterviewquestionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\models\\interviewquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\models\\interviewquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.api\\controllers\\companytechnologycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|solutionrelative:techtrack.api\\controllers\\companytechnologycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.api\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|solutionrelative:techtrack.api\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|solutionrelative:techtrack.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\service\\companytechnologyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\service\\companytechnologyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\service\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\service\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\iservice\\icompanytechnologyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\iservice\\icompanytechnologyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\iservice\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\extensions\\roadmapstepmappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\extensions\\roadmapstepmappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\extensions\\roadmapmappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\extensions\\roadmapmappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\extensions\\companytechnologymappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\extensions\\companytechnologymappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\extensions\\companymappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\extensions\\companymappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\irepo\\icompanytechnologyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\irepo\\icompanytechnologyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\companytechnology\\companytechnologygetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\companytechnology\\companytechnologygetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\companytechnology\\companytechnologyupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\companytechnology\\companytechnologyupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\companytechnology\\companytechnologycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\companytechnology\\companytechnologycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\models\\companytechnology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\models\\companytechnology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\iservice\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\iservice\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\repo\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\repo\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\irepo\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\irepo\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\company\\companygetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\company\\companygetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\company\\companyupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\company\\companyupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\company\\companycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\company\\companycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\category\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\category\\categorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\common\\results\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\common\\results\\serviceresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\common\\errors\\errormessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\common\\errors\\errormessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\models\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\service\\roadmapstepservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\service\\roadmapstepservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\service\\roadmapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\service\\roadmapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\roadmapstep\\roadmapstepupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\roadmapstep\\roadmapstepupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\roadmapstep\\roadmapstepcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\roadmapstep\\roadmapstepcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\roadmapstep\\roadmapstepgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\roadmapstep\\roadmapstepgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\iservice\\iroadmapstepservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\iservice\\iroadmapstepservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\models\\roadmapstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\models\\roadmapstep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\models\\roadmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\models\\roadmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\extensions\\categorymappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\extensions\\categorymappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.api\\controllers\\roadmapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|solutionrelative:techtrack.api\\controllers\\roadmapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\models\\technology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\models\\technology.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\iservice\\iroadmapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\iservice\\iroadmapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\iservice\\isubcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\iservice\\isubcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\roadmap\\roadmapcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\roadmap\\roadmapcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\roadmap\\roadmapgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\roadmap\\roadmapgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\roadmap\\roadmapupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\roadmap\\roadmapupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\models\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\models\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\repo\\trackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\repo\\trackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\service\\subcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\service\\subcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.api\\controllers\\technologycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|solutionrelative:techtrack.api\\controllers\\technologycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\service\\technologyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\service\\technologyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\extensions\\technologymappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\extensions\\technologymappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\irepo\\itechnologyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\irepo\\itechnologyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\iservice\\itechnologyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\iservice\\itechnologyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\technology\\technologygetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\technology\\technologygetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\technology\\technologyupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\technology\\technologyupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\technology\\technologycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\technology\\technologycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.api\\controllers\\trackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|solutionrelative:techtrack.api\\controllers\\trackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\service\\trackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\service\\trackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\iservice\\itrackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\iservice\\itrackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\irepo\\itrackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\irepo\\itrackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\extensions\\trackmappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\extensions\\trackmappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\track\\trackupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\track\\trackupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\track\\trackgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\track\\trackgetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.api\\controllers\\subcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72B8AF29-DF86-448E-994C-5D2F350F1B4E}|TechTrack.API\\TechTrack.API.csproj|solutionrelative:techtrack.api\\controllers\\subcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\irepo\\isubcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\irepo\\isubcategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\extensions\\subcategorymappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\extensions\\subcategorymappingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\subcategory\\subcategorygetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\subcategory\\subcategorygetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\subcategory\\subcategoryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\subcategory\\subcategoryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\subcategory\\subcategorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\subcategory\\subcategorycreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\models\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\models\\subcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\interfaces\\irepo\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\interfaces\\irepo\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\techtrack.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\techtrack.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.infrastructure\\techtrack.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9FE723DF-2B93-45B6-9965-C8020252201D}|TechTrack.Infrastructure\\TechTrack.Data.csproj|solutionrelative:techtrack.infrastructure\\techtrack.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\category\\categoryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\category\\categoryupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\dtos\\category\\categorygetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\dtos\\category\\categorygetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|c:\\users\\hp\\onedrive\\desktop\\techtrack\\techtrack.domain\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ACF632B-A587-4EF3-9BB6-E34342D7BE6A}|TechTrack.Domain\\TechTrack.Domain.csproj|solutionrelative:techtrack.domain\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TechTrack.API.http",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\TechTrack.API.http",
+              "RelativeDocumentMoniker": "TechTrack.API\\TechTrack.API.http",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\TechTrack.API.http",
+              "RelativeToolTip": "TechTrack.API\\TechTrack.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-11-06T00:09:10.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SubCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\SubCategoryRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Repo\\SubCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\SubCategoryRepository.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Repo\\SubCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:34:58.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRoadmapRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\IRoadmapRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IRepo\\IRoadmapRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\IRoadmapRepository.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IRepo\\IRoadmapRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:23:56.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IRoadmapStepRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\IRoadmapStepRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IRepo\\IRoadmapStepRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\IRoadmapStepRepository.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IRepo\\IRoadmapStepRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:47:06.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Program.cs",
+              "RelativeDocumentMoniker": "TechTrack.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Program.cs",
+              "RelativeToolTip": "TechTrack.API\\Program.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:59:22.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TechTrack.API.csproj",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\TechTrack.API.csproj",
+              "RelativeDocumentMoniker": "TechTrack.API\\TechTrack.API.csproj",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\TechTrack.API.csproj",
+              "RelativeToolTip": "TechTrack.API\\TechTrack.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-05T18:31:11.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TechnologyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\TechnologyRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Repo\\TechnologyRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\TechnologyRepository.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Repo\\TechnologyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:51:30.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\appsettings.json",
+              "RelativeDocumentMoniker": "TechTrack.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\appsettings.json",
+              "RelativeToolTip": "TechTrack.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAACUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-05T18:38:31.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoadmapRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\RoadmapRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Repo\\RoadmapRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\RoadmapRepository.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Repo\\RoadmapRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:25:01.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CompanyTechnologyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\CompanyTechnologyRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Repo\\CompanyTechnologyRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\CompanyTechnologyRepository.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Repo\\CompanyTechnologyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:10:24.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InterviewQuestionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\InterviewQuestionRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Repo\\InterviewQuestionRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\InterviewQuestionRepository.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Repo\\InterviewQuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:22:22.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RoadmapStepRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\RoadmapStepRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Repo\\RoadmapStepRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\RoadmapStepRepository.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Repo\\RoadmapStepRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:49:29.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:59:59.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApiMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Common\\Messages\\ApiMessage.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Common\\Messages\\ApiMessage.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Common\\Messages\\ApiMessage.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Common\\Messages\\ApiMessage.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:19:09.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IUserTechnologyReviewRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\IUserTechnologyReviewRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IRepo\\IUserTechnologyReviewRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\IUserTechnologyReviewRepository.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IRepo\\IUserTechnologyReviewRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:39:15.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CorsMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Middleware\\CorsMiddleware.cs",
+              "RelativeDocumentMoniker": "TechTrack.API\\Middleware\\CorsMiddleware.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Middleware\\CorsMiddleware.cs",
+              "RelativeToolTip": "TechTrack.API\\Middleware\\CorsMiddleware.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:46:51.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GlobalExceptionHandlerMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Middleware\\GlobalExceptionHandlerMiddleware.cs",
+              "RelativeDocumentMoniker": "TechTrack.API\\Middleware\\GlobalExceptionHandlerMiddleware.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Middleware\\GlobalExceptionHandlerMiddleware.cs",
+              "RelativeToolTip": "TechTrack.API\\Middleware\\GlobalExceptionHandlerMiddleware.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:47:21.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserTechnologyReviewMappingExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\UserTechnologyReviewMappingExtensions.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Extensions\\UserTechnologyReviewMappingExtensions.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\UserTechnologyReviewMappingExtensions.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Extensions\\UserTechnologyReviewMappingExtensions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:40:15.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IUserTechnologyReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\IUserTechnologyReviewService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IService\\IUserTechnologyReviewService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\IUserTechnologyReviewService.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IService\\IUserTechnologyReviewService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:40:49.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Repo\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\CategoryRepository.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Repo\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:04:34.982Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserTechnologyReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\UserTechnologyReviewService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Service\\UserTechnologyReviewService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\UserTechnologyReviewService.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Service\\UserTechnologyReviewService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAswCEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:41:19.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserTechnologyReviewRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\UserTechnologyReviewRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Repo\\UserTechnologyReviewRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\UserTechnologyReviewRepository.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Repo\\UserTechnologyReviewRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:39:39.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserTechnologyReviewGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\UserTechnologyReview\\UserTechnologyReviewGetDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\UserTechnologyReview\\UserTechnologyReviewGetDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\UserTechnologyReview\\UserTechnologyReviewGetDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\UserTechnologyReview\\UserTechnologyReviewGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:38:12.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserTechnologyReviewUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\UserTechnologyReview\\UserTechnologyReviewUpdateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\UserTechnologyReview\\UserTechnologyReviewUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\UserTechnologyReview\\UserTechnologyReviewUpdateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\UserTechnologyReview\\UserTechnologyReviewUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:37:46.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserTechnologyReviewCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\UserTechnologyReview\\UserTechnologyReviewCreateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\UserTechnologyReview\\UserTechnologyReviewCreateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\UserTechnologyReview\\UserTechnologyReviewCreateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\UserTechnologyReview\\UserTechnologyReviewCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:37:19.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "TechTrack.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "TechTrack.API\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:35:29.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\User\\UserUpdateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\User\\UserUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\User\\UserUpdateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\User\\UserUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:33:28.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\UserService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Service\\UserService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\UserService.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Service\\UserService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:32:06.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\IUserService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IService\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\IUserService.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IService\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:31:40.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "InterviewQuestionController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Controllers\\InterviewQuestionController.cs",
+              "RelativeDocumentMoniker": "TechTrack.API\\Controllers\\InterviewQuestionController.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Controllers\\InterviewQuestionController.cs",
+              "RelativeToolTip": "TechTrack.API\\Controllers\\InterviewQuestionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:25:20.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserTechnologyReview.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\UserTechnologyReview.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Models\\UserTechnologyReview.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\UserTechnologyReview.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Models\\UserTechnologyReview.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:50:50.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UserMappingExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\UserMappingExtensions.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Extensions\\UserMappingExtensions.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\UserMappingExtensions.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Extensions\\UserMappingExtensions.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:30:40.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\UserRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Repo\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\UserRepository.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Repo\\UserRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:29:56.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IRepo\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\IUserRepository.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IRepo\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:29:31.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\User\\UserGetDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\User\\UserGetDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\User\\UserGetDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\User\\UserGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:28:41.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\User\\UserCreateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\User\\UserCreateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\User\\UserCreateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\User\\UserCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:27:59.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "InterviewQuestionService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\InterviewQuestionService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Service\\InterviewQuestionService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\InterviewQuestionService.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Service\\InterviewQuestionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:24:15.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "InterviewQuestionGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\InterviewQuestion\\InterviewQuestionGetDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\InterviewQuestion\\InterviewQuestionGetDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\InterviewQuestion\\InterviewQuestionGetDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\InterviewQuestion\\InterviewQuestionGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:21:21.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "InterviewQuestionCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\InterviewQuestion\\InterviewQuestionCreateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\InterviewQuestion\\InterviewQuestionCreateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\InterviewQuestion\\InterviewQuestionCreateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\InterviewQuestion\\InterviewQuestionCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:18:16.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "InterviewQuestionUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\InterviewQuestion\\InterviewQuestionUpdateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\InterviewQuestion\\InterviewQuestionUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\InterviewQuestion\\InterviewQuestionUpdateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\InterviewQuestion\\InterviewQuestionUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:18:42.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TrackCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Track\\TrackCreateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\Track\\TrackCreateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Track\\TrackCreateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\Track\\TrackCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:39:26.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "InterviewQuestionMappingExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\InterviewQuestionMappingExtensions.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Extensions\\InterviewQuestionMappingExtensions.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\InterviewQuestionMappingExtensions.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Extensions\\InterviewQuestionMappingExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:23:06.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\User.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:49:20.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IInterviewQuestionService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\IInterviewQuestionService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IService\\IInterviewQuestionService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\IInterviewQuestionService.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IService\\IInterviewQuestionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:23:47.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IInterviewQuestionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\IInterviewQuestionRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IRepo\\IInterviewQuestionRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\IInterviewQuestionRepository.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IRepo\\IInterviewQuestionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:21:49.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "CompanyTechnologyController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Controllers\\CompanyTechnologyController.cs",
+              "RelativeDocumentMoniker": "TechTrack.API\\Controllers\\CompanyTechnologyController.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Controllers\\CompanyTechnologyController.cs",
+              "RelativeToolTip": "TechTrack.API\\Controllers\\CompanyTechnologyController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:16:14.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "CompanyTechnologyService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\CompanyTechnologyService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Service\\CompanyTechnologyService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\CompanyTechnologyService.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Service\\CompanyTechnologyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:14:12.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "ICompanyTechnologyService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\ICompanyTechnologyService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IService\\ICompanyTechnologyService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\ICompanyTechnologyService.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IService\\ICompanyTechnologyService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:12:34.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\CompanyService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Service\\CompanyService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\CompanyService.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Service\\CompanyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:03:37.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Controllers\\CompanyController.cs",
+              "RelativeDocumentMoniker": "TechTrack.API\\Controllers\\CompanyController.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Controllers\\CompanyController.cs",
+              "RelativeToolTip": "TechTrack.API\\Controllers\\CompanyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:04:49.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "InterviewQuestion.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\InterviewQuestion.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Models\\InterviewQuestion.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\InterviewQuestion.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Models\\InterviewQuestion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:45:01.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IService\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\ICategoryService.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IService\\ICategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:55:39.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "TechTrack.API\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "TechTrack.API\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:03:31.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "RoadmapMappingExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\RoadmapMappingExtensions.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Extensions\\RoadmapMappingExtensions.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\RoadmapMappingExtensions.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Extensions\\RoadmapMappingExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:26:03.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "CompanyTechnologyMappingExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\CompanyTechnologyMappingExtensions.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Extensions\\CompanyTechnologyMappingExtensions.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\CompanyTechnologyMappingExtensions.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Extensions\\CompanyTechnologyMappingExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:11:02.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "CompanyMappingExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\CompanyMappingExtensions.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Extensions\\CompanyMappingExtensions.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\CompanyMappingExtensions.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Extensions\\CompanyMappingExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:05:43.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "RoadmapStepMappingExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\RoadmapStepMappingExtensions.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Extensions\\RoadmapStepMappingExtensions.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\RoadmapStepMappingExtensions.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Extensions\\RoadmapStepMappingExtensions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:49:57.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ICompanyTechnologyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\ICompanyTechnologyRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IRepo\\ICompanyTechnologyRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\ICompanyTechnologyRepository.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IRepo\\ICompanyTechnologyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:09:40.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "CompanyTechnologyGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\CompanyTechnology\\CompanyTechnologyGetDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\CompanyTechnology\\CompanyTechnologyGetDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\CompanyTechnology\\CompanyTechnologyGetDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\CompanyTechnology\\CompanyTechnologyGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:09:12.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "CompanyTechnologyUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\CompanyTechnology\\CompanyTechnologyUpdateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\CompanyTechnology\\CompanyTechnologyUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\CompanyTechnology\\CompanyTechnologyUpdateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\CompanyTechnology\\CompanyTechnologyUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:08:38.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "CompanyTechnologyCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\CompanyTechnology\\CompanyTechnologyCreateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\CompanyTechnology\\CompanyTechnologyCreateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\CompanyTechnology\\CompanyTechnologyCreateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\CompanyTechnology\\CompanyTechnologyCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:07:42.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "ICompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\ICompanyService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IService\\ICompanyService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\ICompanyService.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IService\\ICompanyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:02:57.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "CompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\CompanyRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Repo\\CompanyRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\CompanyRepository.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Repo\\CompanyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:02:09.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "CompanyTechnology.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\CompanyTechnology.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Models\\CompanyTechnology.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\CompanyTechnology.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Models\\CompanyTechnology.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:44:10.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ICompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\ICompanyRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IRepo\\ICompanyRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\ICompanyRepository.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IRepo\\ICompanyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:01:26.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "CompanyGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Company\\CompanyGetDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\Company\\CompanyGetDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Company\\CompanyGetDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\Company\\CompanyGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:00:53.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "CompanyUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Company\\CompanyUpdateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\Company\\CompanyUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Company\\CompanyUpdateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\Company\\CompanyUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T23:00:23.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "CompanyCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Company\\CompanyCreateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\Company\\CompanyCreateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Company\\CompanyCreateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\Company\\CompanyCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:59:57.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "RoadmapStepService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\RoadmapStepService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Service\\RoadmapStepService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\RoadmapStepService.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Service\\RoadmapStepService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:50:34.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "RoadmapService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\RoadmapService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Service\\RoadmapService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\RoadmapService.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Service\\RoadmapService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:25:35.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "ErrorMessage.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Common\\Errors\\ErrorMessage.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Common\\Errors\\ErrorMessage.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Common\\Errors\\ErrorMessage.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Common\\Errors\\ErrorMessage.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAYwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:15:54.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\Company.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Models\\Company.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\Company.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Models\\Company.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:43:20.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "ServiceResult.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Common\\Results\\ServiceResult.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Common\\Results\\ServiceResult.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Common\\Results\\ServiceResult.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Common\\Results\\ServiceResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:19:38.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "CategoryCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Category\\CategoryCreateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\Category\\CategoryCreateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Category\\CategoryCreateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\Category\\CategoryCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:13:41.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "RoadmapStepUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\RoadmapStep\\RoadmapStepUpdateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\RoadmapStep\\RoadmapStepUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\RoadmapStep\\RoadmapStepUpdateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\RoadmapStep\\RoadmapStepUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:49:05.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "RoadmapStepCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\RoadmapStep\\RoadmapStepCreateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\RoadmapStep\\RoadmapStepCreateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\RoadmapStep\\RoadmapStepCreateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\RoadmapStep\\RoadmapStepCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:48:44.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "RoadmapStepGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\RoadmapStep\\RoadmapStepGetDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\RoadmapStep\\RoadmapStepGetDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\RoadmapStep\\RoadmapStepGetDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\RoadmapStep\\RoadmapStepGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:48:23.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "IRoadmapStepService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\IRoadmapStepService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IService\\IRoadmapStepService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\IRoadmapStepService.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IService\\IRoadmapStepService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:47:32.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "RoadmapController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Controllers\\RoadmapController.cs",
+              "RelativeDocumentMoniker": "TechTrack.API\\Controllers\\RoadmapController.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Controllers\\RoadmapController.cs",
+              "RelativeToolTip": "TechTrack.API\\Controllers\\RoadmapController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAD4vxsAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:26:30.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "CategoryMappingExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\CategoryMappingExtensions.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Extensions\\CategoryMappingExtensions.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\CategoryMappingExtensions.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Extensions\\CategoryMappingExtensions.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwAUAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:26:58.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "RoadmapStep.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\RoadmapStep.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Models\\RoadmapStep.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\RoadmapStep.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Models\\RoadmapStep.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:47:20.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "Roadmap.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\Roadmap.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Models\\Roadmap.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\Roadmap.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Models\\Roadmap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:46:37.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Technology.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\Technology.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Models\\Technology.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\Technology.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Models\\Technology.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:48:33.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "IRoadmapService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\IRoadmapService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IService\\IRoadmapService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\IRoadmapService.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IService\\IRoadmapService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:24:20.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "ISubCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\ISubCategoryService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IService\\ISubCategoryService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\ISubCategoryService.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IService\\ISubCategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:35:37.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "RoadmapCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Roadmap\\RoadmapCreateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\Roadmap\\RoadmapCreateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Roadmap\\RoadmapCreateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\Roadmap\\RoadmapCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:22:44.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "RoadmapGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Roadmap\\RoadmapGetDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\Roadmap\\RoadmapGetDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Roadmap\\RoadmapGetDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\Roadmap\\RoadmapGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:23:29.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "RoadmapUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Roadmap\\RoadmapUpdateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\Roadmap\\RoadmapUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Roadmap\\RoadmapUpdateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\Roadmap\\RoadmapUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T22:23:06.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Track.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\Track.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Models\\Track.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\Track.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Models\\Track.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:48:53.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\CategoryService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Service\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\CategoryService.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Service\\CategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:56:26.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "TrackRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\TrackRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Repo\\TrackRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Repo\\TrackRepository.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Repo\\TrackRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:43:53.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "SubCategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\SubCategoryService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Service\\SubCategoryService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\SubCategoryService.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Service\\SubCategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:36:10.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "TechnologyController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Controllers\\TechnologyController.cs",
+              "RelativeDocumentMoniker": "TechTrack.API\\Controllers\\TechnologyController.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Controllers\\TechnologyController.cs",
+              "RelativeToolTip": "TechTrack.API\\Controllers\\TechnologyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:52:49.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "TechnologyService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\TechnologyService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Service\\TechnologyService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\TechnologyService.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Service\\TechnologyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:52:22.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "TechnologyMappingExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\TechnologyMappingExtensions.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Extensions\\TechnologyMappingExtensions.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\TechnologyMappingExtensions.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Extensions\\TechnologyMappingExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:51:58.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "ITechnologyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\ITechnologyRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IRepo\\ITechnologyRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\ITechnologyRepository.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IRepo\\ITechnologyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:50:50.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "ITechnologyService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\ITechnologyService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IService\\ITechnologyService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\ITechnologyService.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IService\\ITechnologyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:50:24.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "TechnologyGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Technology\\TechnologyGetDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\Technology\\TechnologyGetDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Technology\\TechnologyGetDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\Technology\\TechnologyGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:49:54.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "TechnologyUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Technology\\TechnologyUpdateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\Technology\\TechnologyUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Technology\\TechnologyUpdateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\Technology\\TechnologyUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:49:32.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "TechnologyCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Technology\\TechnologyCreateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\Technology\\TechnologyCreateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Technology\\TechnologyCreateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\Technology\\TechnologyCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:49:12.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "TrackController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Controllers\\TrackController.cs",
+              "RelativeDocumentMoniker": "TechTrack.API\\Controllers\\TrackController.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Controllers\\TrackController.cs",
+              "RelativeToolTip": "TechTrack.API\\Controllers\\TrackController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:45:40.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "TrackService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\TrackService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Service\\TrackService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Service\\TrackService.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Service\\TrackService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:45:05.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "ITrackService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\ITrackService.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IService\\ITrackService.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IService\\ITrackService.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IService\\ITrackService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:44:23.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "ITrackRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\ITrackRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IRepo\\ITrackRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\ITrackRepository.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IRepo\\ITrackRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:43:09.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "TrackMappingExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\TrackMappingExtensions.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Extensions\\TrackMappingExtensions.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\TrackMappingExtensions.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Extensions\\TrackMappingExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:42:27.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "TrackUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Track\\TrackUpdateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\Track\\TrackUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Track\\TrackUpdateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\Track\\TrackUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:39:57.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "TrackGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Track\\TrackGetDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\Track\\TrackGetDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Track\\TrackGetDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\Track\\TrackGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:38:40.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "SubCategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Controllers\\SubCategoryController.cs",
+              "RelativeDocumentMoniker": "TechTrack.API\\Controllers\\SubCategoryController.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.API\\Controllers\\SubCategoryController.cs",
+              "RelativeToolTip": "TechTrack.API\\Controllers\\SubCategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:36:42.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "ISubCategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\ISubCategoryRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IRepo\\ISubCategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\ISubCategoryRepository.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IRepo\\ISubCategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:34:29.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "SubCategoryMappingExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\SubCategoryMappingExtensions.cs",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\Extensions\\SubCategoryMappingExtensions.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\Extensions\\SubCategoryMappingExtensions.cs",
+              "RelativeToolTip": "TechTrack.Infrastructure\\Extensions\\SubCategoryMappingExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:33:35.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "SubCategoryGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\SubCategory\\SubCategoryGetDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\SubCategory\\SubCategoryGetDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\SubCategory\\SubCategoryGetDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\SubCategory\\SubCategoryGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:32:53.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "SubCategoryUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\SubCategory\\SubCategoryUpdateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\SubCategory\\SubCategoryUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\SubCategory\\SubCategoryUpdateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\SubCategory\\SubCategoryUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:32:09.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "SubCategoryCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\SubCategory\\SubCategoryCreateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\SubCategory\\SubCategoryCreateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\SubCategory\\SubCategoryCreateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\SubCategory\\SubCategoryCreateDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T21:31:17.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "SubCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\SubCategory.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Models\\SubCategory.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\SubCategory.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Models\\SubCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:47:48.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Interfaces\\IRepo\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Interfaces\\IRepo\\ICategoryRepository.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Interfaces\\IRepo\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:04:10.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "TechTrack.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\TechTrack.Domain.csproj",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\TechTrack.Domain.csproj",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\TechTrack.Domain.csproj",
+              "RelativeToolTip": "TechTrack.Domain\\TechTrack.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-05T18:31:57.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "CategoryUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Category\\CategoryUpdateDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\Category\\CategoryUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Category\\CategoryUpdateDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\Category\\CategoryUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:14:07.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "TechTrack.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\TechTrack.Data.csproj",
+              "RelativeDocumentMoniker": "TechTrack.Infrastructure\\TechTrack.Data.csproj",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Infrastructure\\TechTrack.Data.csproj",
+              "RelativeToolTip": "TechTrack.Infrastructure\\TechTrack.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-05T18:32:44.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "CategoryGetDto.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Category\\CategoryGetDto.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\DTOs\\Category\\CategoryGetDto.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\DTOs\\Category\\CategoryGetDto.cs",
+              "RelativeToolTip": "TechTrack.Domain\\DTOs\\Category\\CategoryGetDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T19:06:30.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "TechTrack.Domain\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack\\TechTrack.Domain\\Models\\Category.cs",
+              "RelativeToolTip": "TechTrack.Domain\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T18:42:38.771Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1145,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 616,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.Infrastructure\obj\Debug\net10.0\TechTrack.Data.csproj.AssemblyReference.cache
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.Infrastructure\obj\Debug\net10.0\TechTrack.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.Infrastructure\obj\Debug\net10.0\TechTrack.Data.AssemblyInfoInputs.cache
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.Infrastructure\obj\Debug\net10.0\TechTrack.Data.AssemblyInfo.cs
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.Infrastructure\obj\Debug\net10.0\TechTrack.Data.csproj.CoreCompileInputs.cache
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.Infrastructure\bin\Debug\net10.0\TechTrack.Data.deps.json
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.Infrastructure\bin\Debug\net10.0\TechTrack.Data.runtimeconfig.json
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.Infrastructure\bin\Debug\net10.0\TechTrack.Data.dll
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.Infrastructure\bin\Debug\net10.0\TechTrack.Data.pdb
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.Infrastructure\bin\Debug\net10.0\TechTrack.Domain.dll
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.Infrastructure\bin\Debug\net10.0\TechTrack.Domain.pdb
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.Infrastructure\obj\Debug\net10.0\TechTrac.3A257E10.Up2Date
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.Infrastructure\obj\Debug\net10.0\TechTrack.Data.dll
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.Infrastructure\obj\Debug\net10.0\refint\TechTrack.Data.dll
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.Infrastructure\obj\Debug\net10.0\TechTrack.Data.pdb
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.Infrastructure\obj\Debug\net10.0\TechTrack.Data.genruntimeconfig.cache
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.Infrastructure\obj\Debug\net10.0\ref\TechTrack.Data.dll

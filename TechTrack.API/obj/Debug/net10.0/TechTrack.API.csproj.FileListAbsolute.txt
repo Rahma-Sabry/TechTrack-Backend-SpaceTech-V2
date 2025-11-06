@@ -1,0 +1,8 @@
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.API\obj\Debug\net10.0\TechTrack.API.csproj.AssemblyReference.cache
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.API\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.API\obj\Debug\net10.0\TechTrack.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.API\obj\Debug\net10.0\TechTrack.API.AssemblyInfoInputs.cache
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.API\obj\Debug\net10.0\TechTrack.API.AssemblyInfo.cs
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.API\obj\Debug\net10.0\TechTrack.API.csproj.CoreCompileInputs.cache
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.API\obj\Debug\net10.0\TechTrack.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Hp\OneDrive\Desktop\TechTrack\TechTrack.API\obj\Debug\net10.0\TechTrack.API.MvcApplicationPartsAssemblyInfo.cache
