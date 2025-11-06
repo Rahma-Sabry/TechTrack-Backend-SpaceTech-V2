@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m4SmZ1ff5Ys=",
+  "dgSpecHash": "sgFfrWqyovk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\رحمه صبرى\\My Compu\\TechTrack\\TechTrack.API\\TechTrack.API.csproj",
+  "projectFilePath": "C:\\Users\\رحمه صبرى\\My Compu\\SpaceTech Intern\\TechTrack-Backend-SpaceTech-V2\\TechTrack.API\\TechTrack.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\رحمه صبرى\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\رحمه صبرى\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

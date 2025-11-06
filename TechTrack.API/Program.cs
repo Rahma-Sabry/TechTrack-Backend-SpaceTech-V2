@@ -82,7 +82,7 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
     {
-        Title = "TechPathNavigator API",
+        Title = "TechTrack API",
         Version = "v1",
         Description = "API for managing technologies, tracks, users, companies, and roadmaps"
     });
@@ -106,7 +106,7 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI(c =>
 {
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "TechPathNavigator API V1");
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "TechTrack API V2");
     c.RoutePrefix = string.Empty;
 });
 

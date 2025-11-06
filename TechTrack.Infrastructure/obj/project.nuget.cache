@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "54HFKsVCVyo=",
+  "dgSpecHash": "xtbF34KRHkc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\رحمه صبرى\\My Compu\\TechTrack\\TechTrack.Infrastructure\\TechTrack.Data.csproj",
+  "projectFilePath": "C:\\Users\\رحمه صبرى\\My Compu\\SpaceTech Intern\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Infrastructure\\TechTrack.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\رحمه صبرى\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\رحمه صبرى\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

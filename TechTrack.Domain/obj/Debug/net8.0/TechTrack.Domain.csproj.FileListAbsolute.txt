@@ -20,3 +20,15 @@ C:\Users\رحمه صبرى\My Compu\TechTrack\TechTrack.Domain\obj\Debug\net8.0\
 C:\Users\رحمه صبرى\My Compu\TechTrack\TechTrack.Domain\obj\Debug\net8.0\refint\TechTrack.Domain.dll
 C:\Users\رحمه صبرى\My Compu\TechTrack\TechTrack.Domain\obj\Debug\net8.0\TechTrack.Domain.pdb
 C:\Users\رحمه صبرى\My Compu\TechTrack\TechTrack.Domain\obj\Debug\net8.0\ref\TechTrack.Domain.dll
+C:\Users\رحمه صبرى\My Compu\SpaceTech Intern\TechTrack-Backend-SpaceTech-V2\TechTrack.Domain\bin\Debug\net8.0\TechTrack.Domain.deps.json
+C:\Users\رحمه صبرى\My Compu\SpaceTech Intern\TechTrack-Backend-SpaceTech-V2\TechTrack.Domain\bin\Debug\net8.0\TechTrack.Domain.dll
+C:\Users\رحمه صبرى\My Compu\SpaceTech Intern\TechTrack-Backend-SpaceTech-V2\TechTrack.Domain\bin\Debug\net8.0\TechTrack.Domain.pdb
+C:\Users\رحمه صبرى\My Compu\SpaceTech Intern\TechTrack-Backend-SpaceTech-V2\TechTrack.Domain\obj\Debug\net8.0\TechTrack.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\رحمه صبرى\My Compu\SpaceTech Intern\TechTrack-Backend-SpaceTech-V2\TechTrack.Domain\obj\Debug\net8.0\TechTrack.Domain.AssemblyInfoInputs.cache
+C:\Users\رحمه صبرى\My Compu\SpaceTech Intern\TechTrack-Backend-SpaceTech-V2\TechTrack.Domain\obj\Debug\net8.0\TechTrack.Domain.AssemblyInfo.cs
+C:\Users\رحمه صبرى\My Compu\SpaceTech Intern\TechTrack-Backend-SpaceTech-V2\TechTrack.Domain\obj\Debug\net8.0\TechTrack.Domain.csproj.CoreCompileInputs.cache
+C:\Users\رحمه صبرى\My Compu\SpaceTech Intern\TechTrack-Backend-SpaceTech-V2\TechTrack.Domain\obj\Debug\net8.0\TechTrack.Domain.sourcelink.json
+C:\Users\رحمه صبرى\My Compu\SpaceTech Intern\TechTrack-Backend-SpaceTech-V2\TechTrack.Domain\obj\Debug\net8.0\TechTrack.Domain.dll
+C:\Users\رحمه صبرى\My Compu\SpaceTech Intern\TechTrack-Backend-SpaceTech-V2\TechTrack.Domain\obj\Debug\net8.0\refint\TechTrack.Domain.dll
+C:\Users\رحمه صبرى\My Compu\SpaceTech Intern\TechTrack-Backend-SpaceTech-V2\TechTrack.Domain\obj\Debug\net8.0\TechTrack.Domain.pdb
+C:\Users\رحمه صبرى\My Compu\SpaceTech Intern\TechTrack-Backend-SpaceTech-V2\TechTrack.Domain\obj\Debug\net8.0\ref\TechTrack.Domain.dll
