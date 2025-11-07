@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechTrack.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48c841fddc0304d75833f52c08d009d74c3a29ae")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a951917e810e05079101357bd162f8d7d4527922")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechTrack.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechTrack.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
