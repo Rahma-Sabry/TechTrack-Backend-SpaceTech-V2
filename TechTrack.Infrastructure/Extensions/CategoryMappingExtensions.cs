@@ -13,7 +13,7 @@ namespace TechTrack.Infrastructure.Extensions
             {
                 CategoryName = dto.CategoryName,
                 Description = dto.Description,
-                ImageUrl = dto.ImageUrl
+                ImageUrl = null // Will be set after image upload
             };
         }
 
@@ -21,7 +21,7 @@ namespace TechTrack.Infrastructure.Extensions
         {
             entity.CategoryName = dto.CategoryName;
             entity.Description = dto.Description;
-            entity.ImageUrl = dto.ImageUrl;
+            // ImageUrl will be handled separately in the service
         }
 
         public static CategoryGetDto ToGetDto(this Category entity)
@@ -31,7 +31,9 @@ namespace TechTrack.Infrastructure.Extensions
                 CategoryId = entity.CategoryId,
                 CategoryName = entity.CategoryName,
                 Description = entity.Description,
-                ImageUrl = entity.ImageUrl
+                ImageUrl = entity.ImageUrl,
+                CreatedAt = entity.CreatedAt,
+                UpdatedAt = entity.UpdatedAt
             };
         }
 
