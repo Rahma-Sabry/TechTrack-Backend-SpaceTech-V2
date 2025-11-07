@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechTrack.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+427c76a833883efaa0cdf02d0e0976003dd39799")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48c841fddc0304d75833f52c08d009d74c3a29ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechTrack.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechTrack.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
