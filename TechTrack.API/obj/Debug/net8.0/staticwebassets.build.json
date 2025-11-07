@@ -1,1 +1,11 @@
-{"Version":1,"Hash":"GXKPvgUSjlz8uvBrerghnSy7KYQx9mMARbny8oaKYKc=","Source":"TechTrack.API","BasePath":"/","Mode":"Root","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "hh5lOqruDq1H27W7HIP6aA2VPSMfakHMFOmJ1CDFigA=",
+  "Source": "TechTrack.API",
+  "BasePath": "_content/TechTrack.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

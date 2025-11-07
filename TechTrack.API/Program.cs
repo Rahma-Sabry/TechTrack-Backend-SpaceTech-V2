@@ -3,8 +3,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using TechTrack.API.Middleware;
+using TechTrack.Domain.Common.Settings;
 using TechTrack.Domain.Interfaces.IRepo;
 using TechTrack.Domain.Interfaces.IService;
 using TechTrack.Infrastructure.Data;
@@ -71,6 +73,10 @@ builder.Services.AddScoped<ISubCategoryService, SubCategoryService>();
 // Roadmap & RoadmapStep
 builder.Services.AddScoped<IRoadmapService, RoadmapService>();
 builder.Services.AddScoped<IRoadmapStepService, RoadmapStepService>();
+
+// Cloudinary
+builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));
+builder.Services.AddScoped<ICloudinaryService, CloudinaryService>();
 
 // ------------------- Controllers -------------------
 builder.Services.AddControllers();

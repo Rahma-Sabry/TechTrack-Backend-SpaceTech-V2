@@ -1,4 +1,6 @@
-﻿namespace TechTrack.DTOs.SubCategory
+﻿using Microsoft.AspNetCore.Http;
+
+namespace TechTrack.DTOs.SubCategory
 {
     public class SubCategoryCreateDto
     {
@@ -7,6 +9,6 @@
         public string Description { get; set; }
         public int? DifficultyLevel { get; set; }
         public int EstimatedDuration { get; set; }
-        public string? ImageUrl { get; set; }
+        public IFormFile? Image { get; set; }
     }
 }

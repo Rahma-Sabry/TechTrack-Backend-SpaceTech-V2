@@ -17,7 +17,7 @@ namespace TechTrack.Infrastructure.Extensions
                 Description = dto.Description,
                 DifficultyLevel = dto.DifficultyLevel,
                 EstimatedDuration = dto.EstimatedDuration,
-                ImageUrl = dto.ImageUrl
+                ImageUrl = null // ImageUrl will be set in service after upload
             };
         }
 
@@ -28,7 +28,7 @@ namespace TechTrack.Infrastructure.Extensions
             entity.Description = dto.Description;
             entity.DifficultyLevel = dto.DifficultyLevel;
             entity.EstimatedDuration = dto.EstimatedDuration;
-            entity.ImageUrl = dto.ImageUrl;
+            // ImageUrl is handled separately in the service
         }
 
         public static SubCategoryGetDto ToGetDto(this SubCategory entity)

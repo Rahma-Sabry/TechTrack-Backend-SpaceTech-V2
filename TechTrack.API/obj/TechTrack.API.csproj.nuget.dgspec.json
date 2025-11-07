@@ -1,43 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.API\\TechTrack.API.csproj": {}
+    "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.API\\TechTrack.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.API\\TechTrack.API.csproj": {
+    "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.API\\TechTrack.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.API\\TechTrack.API.csproj",
+        "projectUniqueName": "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.API\\TechTrack.API.csproj",
         "projectName": "TechTrack.API",
-        "projectPath": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.API\\TechTrack.API.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.API\\obj\\",
+        "projectPath": "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.API\\TechTrack.API.csproj",
+        "packagesPath": "C:\\Users\\NTG\\.nuget\\packages\\",
+        "outputPath": "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\NTG\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Domain\\TechTrack.Domain.csproj": {
-                "projectPath": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Domain\\TechTrack.Domain.csproj"
+              "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Domain\\TechTrack.Domain.csproj": {
+                "projectPath": "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Domain\\TechTrack.Domain.csproj"
               },
-              "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Infrastructure\\TechTrack.Data.csproj": {
-                "projectPath": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Infrastructure\\TechTrack.Data.csproj"
+              "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Infrastructure\\TechTrack.Data.csproj": {
+                "projectPath": "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Infrastructure\\TechTrack.Data.csproj"
               }
             }
           }
@@ -51,8 +44,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -96,33 +88,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.2.25502.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "D:\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Domain\\TechTrack.Domain.csproj": {
+    "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Domain\\TechTrack.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Domain\\TechTrack.Domain.csproj",
+        "projectUniqueName": "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Domain\\TechTrack.Domain.csproj",
         "projectName": "TechTrack.Domain",
-        "projectPath": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Domain\\TechTrack.Domain.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Domain\\obj\\",
+        "projectPath": "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Domain\\TechTrack.Domain.csproj",
+        "packagesPath": "C:\\Users\\NTG\\.nuget\\packages\\",
+        "outputPath": "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\NTG\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -140,12 +125,17 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -162,41 +152,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.2.25502.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "D:\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Infrastructure\\TechTrack.Data.csproj": {
+    "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Infrastructure\\TechTrack.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Infrastructure\\TechTrack.Data.csproj",
+        "projectUniqueName": "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Infrastructure\\TechTrack.Data.csproj",
         "projectName": "TechTrack.Data",
-        "projectPath": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Infrastructure\\TechTrack.Data.csproj",
-        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Infrastructure\\obj\\",
+        "projectPath": "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Infrastructure\\TechTrack.Data.csproj",
+        "packagesPath": "C:\\Users\\NTG\\.nuget\\packages\\",
+        "outputPath": "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\NTG\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Domain\\TechTrack.Domain.csproj": {
-                "projectPath": "C:\\Users\\Hp\\OneDrive\\Desktop\\TechTrack_1\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Domain\\TechTrack.Domain.csproj"
+              "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Domain\\TechTrack.Domain.csproj": {
+                "projectPath": "D:\\TechTrack-Backend-SpaceTech-V2\\TechTrack.Domain\\TechTrack.Domain.csproj"
               }
             }
           }
@@ -210,13 +193,16 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "CloudinaryDotNet": {
+              "target": "Package",
+              "version": "[1.27.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.10, )"
@@ -254,7 +240,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.2.25502.107/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "D:\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
