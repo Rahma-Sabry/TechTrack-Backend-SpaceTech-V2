@@ -1,55 +1,55 @@
-﻿
-using TechTrack.Domain.Models;
+﻿using Microsoft.EntityFrameworkCore;
 using TechTrack.Domain.Interfaces.IRepo;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using TechTrack.Domain.Models;
+using TechTrack.Infrastructure.Data;
 
 namespace TechTrack.Infrastructure.Repository
 {
     public class CompanyRepository : ICompanyRepository
     {
-        private readonly List<Company> _companies = new();
+        private readonly AppDbContext _context;
 
-        public async Task AddAsync(Company company)
+        public CompanyRepository(AppDbContext context)
         {
-            company.CompanyId = _companies.Count + 1;
-            _companies.Add(company);
-            await Task.CompletedTask;
-        }
-
-        public async Task DeleteAsync(Company company)
-        {
-            _companies.Remove(company);
-            await Task.CompletedTask;
-        }
-
-        public async Task<IEnumerable<Company>> GetAllAsync()
-        {
-            return await Task.FromResult(_companies);
+            _context = context;
         }
 
         public async Task<Company?> GetByIdAsync(int id)
         {
-            return await Task.FromResult(_companies.FirstOrDefault(c => c.CompanyId == id));
+            return await _context.Companies
+                .Include(c => c.CompanyTechnology)
+                .FirstOrDefaultAsync(c => c.CompanyId == id);
+        }
+
+        public async Task<IEnumerable<Company>> GetAllAsync()
+        {
+            return await _context.Companies
+                .Include(c => c.CompanyTechnology)
+                .ToListAsync();
+        }
+
+        public async Task AddAsync(Company company)
+        {
+            await _context.Companies.AddAsync(company);
+            await _context.SaveChangesAsync();
         }
 
         public async Task UpdateAsync(Company company)
         {
-            var existing = _companies.FirstOrDefault(c => c.CompanyId == company.CompanyId);
-            if (existing != null)
-            {
-                existing.CompanyName = company.CompanyName;
-                existing.Industry = company.Industry;
-                existing.WebsiteUrl = company.WebsiteUrl;
-                existing.Description = company.Description;
-            }
-            await Task.CompletedTask;
+            _context.Companies.Update(company);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task DeleteAsync(Company company)
+        {
+            _context.Companies.Remove(company);
+            await _context.SaveChangesAsync();
         }
 
         public async Task<bool> ExistsByNameAsync(string name)
         {
-            return await Task.FromResult(_companies.Any(c => c.CompanyName == name));
+            return await _context.Companies
+                .AnyAsync(c => c.CompanyName.ToLower() == name.ToLower());
         }
     }
 }

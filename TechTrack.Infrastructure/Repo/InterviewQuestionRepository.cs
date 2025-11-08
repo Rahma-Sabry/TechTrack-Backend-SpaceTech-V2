@@ -1,50 +1,49 @@
-﻿using TechTrack.Domain.Models;
+﻿using Microsoft.EntityFrameworkCore;
 using TechTrack.Domain.Interfaces.IRepo;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using TechTrack.Domain.Models;
+using TechTrack.Infrastructure.Data;
 
 namespace TechTrack.Infrastructure.Repository
 {
     public class InterviewQuestionRepository : IInterviewQuestionRepository
     {
-        private readonly List<InterviewQuestion> _questions = new();
+        private readonly AppDbContext _context;
 
-        public async Task AddAsync(InterviewQuestion question)
+        public InterviewQuestionRepository(AppDbContext context)
         {
-            question.QuestionId = _questions.Count + 1;
-            _questions.Add(question);
-            await Task.CompletedTask;
-        }
-
-        public async Task DeleteAsync(InterviewQuestion question)
-        {
-            _questions.Remove(question);
-            await Task.CompletedTask;
-        }
-
-        public async Task<IEnumerable<InterviewQuestion>> GetAllAsync()
-        {
-            return await Task.FromResult(_questions);
+            _context = context;
         }
 
         public async Task<InterviewQuestion?> GetByIdAsync(int id)
         {
-            return await Task.FromResult(_questions.FirstOrDefault(q => q.QuestionId == id));
+            return await _context.InterviewQuestions
+                .Include(q => q.Technology)
+                .FirstOrDefaultAsync(q => q.QuestionId == id);
+        }
+
+        public async Task<IEnumerable<InterviewQuestion>> GetAllAsync()
+        {
+            return await _context.InterviewQuestions
+                .Include(q => q.Technology)
+                .ToListAsync();
+        }
+
+        public async Task AddAsync(InterviewQuestion question)
+        {
+            await _context.InterviewQuestions.AddAsync(question);
+            await _context.SaveChangesAsync();
         }
 
         public async Task UpdateAsync(InterviewQuestion question)
         {
-            var existing = _questions.FirstOrDefault(q => q.QuestionId == question.QuestionId);
-            if (existing != null)
-            {
-                existing.TechnologyId = question.TechnologyId;
-                existing.QuestionText = question.QuestionText;
-                existing.DifficultyLevel = question.DifficultyLevel;
-                existing.QuestionType = question.QuestionType;
-                existing.SampleAnswer = question.SampleAnswer;
-            }
-            await Task.CompletedTask;
+            _context.InterviewQuestions.Update(question);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task DeleteAsync(InterviewQuestion question)
+        {
+            _context.InterviewQuestions.Remove(question);
+            await _context.SaveChangesAsync();
         }
     }
 }
