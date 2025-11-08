@@ -107,6 +107,27 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
+// ------------------- Database Seeding -------------------
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    try
+    {
+        var context = services.GetRequiredService<AppDbContext>();
+        
+        // Apply any pending migrations
+      //  await context.Database.MigrateAsync();
+        
+        // Seed the database
+        await DatabaseSeeder.SeedAsync(context);
+    }
+    catch (Exception ex)
+    {
+        var logger = services.GetRequiredService<ILogger<Program>>();
+        logger.LogError(ex, "An error occurred while seeding the database.");
+    }
+}
+
 // ------------------- Middleware -------------------
 app.UseSwagger();
 app.UseSwaggerUI(c =>
@@ -115,14 +136,13 @@ app.UseSwaggerUI(c =>
     c.RoutePrefix = string.Empty;
 });
 
-// Custom Middleware (optional, implement if you have them)
-app.UseGlobalExceptionHandler(); // implement this extension or remove
+// Custom Middleware
+app.UseGlobalExceptionHandler();
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.UseCors();
 
 // ------------------- Map Controllers -------------------
 app.MapControllers();
-
 
 app.Run();
