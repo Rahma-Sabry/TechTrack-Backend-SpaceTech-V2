@@ -27,6 +27,15 @@ namespace TechTrack.Infrastructure.Service
             return steps.ToGetDtoList();
         }
 
+        public async Task<IEnumerable<RoadmapStepGetDto>> GetAllByRoadmapIdAsync(int roadmapId)
+        {
+            var steps = await _repo.GetAllByRoadmapIdAsync(roadmapId);
+            if (!steps.Any())
+                throw new Exception(ErrorMessages.RoadmapStep_NotFound);
+
+            return steps.ToGetDtoList();
+        }
+
         public async Task<RoadmapStepGetDto?> GetByIdAsync(int id)
         {
             var step = await _repo.GetByIdAsync(id);

@@ -19,6 +19,15 @@ namespace TechTrack.Infrastructure.Repo
             return await _context.RoadmapSteps.ToListAsync();
         }
 
+        // Add this method
+        public async Task<IEnumerable<RoadmapStep>> GetAllByRoadmapIdAsync(int roadmapId)
+        {
+            return await _context.RoadmapSteps
+                .Where(rs => rs.RoadmapId == roadmapId)
+                .OrderBy(rs => rs.StepOrder)
+                .ToListAsync();
+        }
+
         public async Task<RoadmapStep?> GetByIdAsync(int id)
         {
             return await _context.RoadmapSteps.FindAsync(id);

@@ -9,6 +9,8 @@ namespace TechTrack.Domain.Interfaces.IRepo
         Task<IEnumerable<RoadmapStep>> GetAllAsync();
         Task<RoadmapStep?> GetByIdAsync(int id);
         Task AddAsync(RoadmapStep roadmapStep);
+        Task<IEnumerable<RoadmapStep>> GetAllByRoadmapIdAsync(int roadmapId);
+
         Task UpdateAsync(RoadmapStep roadmapStep);
         Task DeleteAsync(int id);
         Task SaveChangesAsync();
