@@ -1,4 +1,6 @@
-﻿using TechPathNavigator.Domain.Common.Results;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using TechPathNavigator.Domain.Common.Results;
 using TechTrack.DTOs.Roadmap;
 
 namespace TechTrack.Domain.Interfaces.IService

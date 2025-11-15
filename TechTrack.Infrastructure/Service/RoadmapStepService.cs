@@ -1,26 +1,28 @@
-﻿using TechPathNavigator.Domain.Common.Errors;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using TechPathNavigator.Domain.Common.Errors;
 using TechPathNavigator.Domain.Common.Messages;
 using TechTrack.Domain.DTOs.RoadmapStep;
 using TechTrack.Domain.Extensions;
 using TechTrack.Domain.Interfaces.IRepo;
 using TechTrack.Domain.Interfaces.IService;
-using TechTrack.Domain.Models;
 
 namespace TechTrack.Infrastructure.Service
 {
     public class RoadmapStepService : IRoadmapStepService
     {
-        private readonly IRoadmapStepRepository _repo;
+        private readonly IRoadmapStepRepository _roadmapStepRepo;
 
-        public RoadmapStepService(IRoadmapStepRepository repo)
+        public RoadmapStepService(IRoadmapStepRepository roadmapStepRepo)
         {
-            _repo = repo;
+            _roadmapStepRepo = roadmapStepRepo;
         }
 
         public async Task<IEnumerable<RoadmapStepGetDto>> GetAllAsync()
         {
-            var steps = await _repo.GetAllAsync();
-
+            var steps = await _roadmapStepRepo.GetAllAsync();
             if (!steps.Any())
                 throw new Exception(ErrorMessages.RoadmapStep_NotFound);
 
@@ -29,16 +31,13 @@ namespace TechTrack.Infrastructure.Service
 
         public async Task<IEnumerable<RoadmapStepGetDto>> GetAllByRoadmapIdAsync(int roadmapId)
         {
-            var steps = await _repo.GetAllByRoadmapIdAsync(roadmapId);
-            if (!steps.Any())
-                throw new Exception(ErrorMessages.RoadmapStep_NotFound);
-
+            var steps = await _roadmapStepRepo.GetAllByRoadmapIdAsync(roadmapId);
             return steps.ToGetDtoList();
         }
 
         public async Task<RoadmapStepGetDto?> GetByIdAsync(int id)
         {
-            var step = await _repo.GetByIdAsync(id);
+            var step = await _roadmapStepRepo.GetByIdAsync(id);
             if (step == null)
                 throw new Exception(ErrorMessages.RoadmapStep_NotFound);
 
@@ -51,35 +50,30 @@ namespace TechTrack.Infrastructure.Service
                 throw new Exception(ApiMessages.NotFound);
 
             var step = dto.ToEntity();
-            await _repo.AddAsync(step);
-            await _repo.SaveChangesAsync();
+            var created = await _roadmapStepRepo.AddAsync(step);
 
             Console.WriteLine(ApiMessages.RoadmapStepCreated);
-            return step.ToGetDto();
+            return created.ToGetDto();
         }
 
         public async Task<RoadmapStepGetDto?> UpdateAsync(int id, RoadmapStepUpdateDto dto)
         {
-            var step = await _repo.GetByIdAsync(id);
+            var step = await _roadmapStepRepo.GetByIdAsync(id);
             if (step == null)
                 throw new Exception(ErrorMessages.RoadmapStep_NotFound);
 
             dto.MapToEntity(step);
-            await _repo.UpdateAsync(step);
-            await _repo.SaveChangesAsync();
+            var updated = await _roadmapStepRepo.UpdateAsync(step);
 
             Console.WriteLine(ApiMessages.RoadmapStepUpdated);
-            return step.ToGetDto();
+            return updated!.ToGetDto();
         }
 
         public async Task<bool> DeleteAsync(int id)
         {
-            var step = await _repo.GetByIdAsync(id);
-            if (step == null)
+            var deleted = await _roadmapStepRepo.DeleteAsync(id);
+            if (!deleted)
                 throw new Exception(ErrorMessages.RoadmapStep_NotFound);
-
-            await _repo.DeleteAsync(id);
-            await _repo.SaveChangesAsync();
 
             Console.WriteLine(ApiMessages.RoadmapStepDeleted);
             return true;

@@ -1,38 +1,38 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
-using TechPathNavigator.Domain.Common.Errors;
 using TechPathNavigator.Domain.Common.Results;
 using TechTrack.Domain.DTOs.SubCategory;
+using TechTrack.Domain.Interfaces.IRepo;
 using TechTrack.Domain.Interfaces.IService;
-using TechTrack.Domain.Models;
 using TechTrack.DTOs.SubCategory;
-using TechTrack.Infrastructure.Data;
 using TechTrack.Infrastructure.Extensions;
 
 namespace TechTrack.Infrastructure.Service.SubCategory
 {
     public class SubCategoryService : ISubCategoryService
     {
-        private readonly AppDbContext _context;
+        private readonly ISubCategoryRepository _subCategoryRepo;
         private readonly ICloudinaryService _cloudinaryService;
 
-        public SubCategoryService(AppDbContext context, ICloudinaryService cloudinaryService)
+        public SubCategoryService(ISubCategoryRepository subCategoryRepo, ICloudinaryService cloudinaryService)
         {
-            _context = context;
+            _subCategoryRepo = subCategoryRepo;
             _cloudinaryService = cloudinaryService;
         }
 
         public async Task<ServiceResult<IEnumerable<SubCategoryGetDto>>> GetAllAsync()
         {
-            var items = await _context.SubCategories.ToListAsync();
+            var items = await _subCategoryRepo.GetAllAsync();
             return ServiceResult<IEnumerable<SubCategoryGetDto>>.Ok(items.ToGetDtoList());
         }
 
         public async Task<ServiceResult<SubCategoryGetDto>> GetByIdAsync(int id)
         {
-            var item = await _context.SubCategories.FindAsync(id);
-            if (item == null) return ServiceResult<SubCategoryGetDto>.Fail("Not found");
+            var item = await _subCategoryRepo.GetByIdAsync(id);
+            if (item == null)
+                return ServiceResult<SubCategoryGetDto>.Fail("Not found");
 
             return ServiceResult<SubCategoryGetDto>.Ok(item.ToGetDto());
         }
@@ -41,21 +41,19 @@ namespace TechTrack.Infrastructure.Service.SubCategory
         {
             try
             {
-                // Check if subcategory name already exists
-                var exists = await _context.SubCategories
-                    .AnyAsync(sc => sc.SubCategoryName.ToLower() == dto.SubCategoryName.ToLower());
+                var allSubCategories = await _subCategoryRepo.GetAllAsync();
+                var exists = allSubCategories.Any(sc =>
+                    sc.SubCategoryName.ToLower() == dto.SubCategoryName.ToLower());
 
                 if (exists)
                     return ServiceResult<SubCategoryGetDto>.Fail("SubCategory name already exists");
 
-                // Upload image if provided
                 string? imageUrl = null;
                 if (dto.Image != null)
                 {
                     imageUrl = await _cloudinaryService.UploadImageAsync(dto.Image, "subcategories");
                 }
 
-                // Create entity
                 var entity = new TechTrack.Domain.Models.SubCategory
                 {
                     CategoryId = dto.CategoryId,
@@ -66,18 +64,17 @@ namespace TechTrack.Infrastructure.Service.SubCategory
                     ImageUrl = imageUrl
                 };
 
-                _context.SubCategories.Add(entity);
-                await _context.SaveChangesAsync();
+                var created = await _subCategoryRepo.AddAsync(entity);
 
                 var resultDto = new SubCategoryGetDto
                 {
-                    SubCategoryId = entity.SubCategoryId,
-                    CategoryId = entity.CategoryId,
-                    SubCategoryName = entity.SubCategoryName,
-                    Description = entity.Description,
-                    DifficultyLevel = entity.DifficultyLevel,
-                    EstimatedDuration = entity.EstimatedDuration,
-                    ImageUrl = entity.ImageUrl
+                    SubCategoryId = created.SubCategoryId,
+                    CategoryId = created.CategoryId,
+                    SubCategoryName = created.SubCategoryName,
+                    Description = created.Description,
+                    DifficultyLevel = created.DifficultyLevel,
+                    EstimatedDuration = created.EstimatedDuration,
+                    ImageUrl = created.ImageUrl
                 };
 
                 return ServiceResult<SubCategoryGetDto>.Ok(resultDto);
@@ -92,22 +89,20 @@ namespace TechTrack.Infrastructure.Service.SubCategory
         {
             try
             {
-                var entity = await _context.SubCategories.FindAsync(id);
+                var entity = await _subCategoryRepo.GetByIdAsync(id);
                 if (entity == null)
                     return ServiceResult<SubCategoryGetDto>.Fail("SubCategory not found");
 
-                // Check if new name conflicts with existing subcategories (excluding current)
-                var nameExists = await _context.SubCategories
-                    .AnyAsync(sc => sc.SubCategoryName.ToLower() == dto.SubCategoryName.ToLower()
-                                && sc.SubCategoryId != id);
+                var allSubCategories = await _subCategoryRepo.GetAllAsync();
+                var nameExists = allSubCategories.Any(sc =>
+                    sc.SubCategoryName.ToLower() == dto.SubCategoryName.ToLower() &&
+                    sc.SubCategoryId != id);
 
                 if (nameExists)
                     return ServiceResult<SubCategoryGetDto>.Fail("SubCategory name already exists");
 
-                // Handle image update/deletion
                 if (dto.DeleteImage && !string.IsNullOrWhiteSpace(entity.ImageUrl))
                 {
-                    // Delete existing image
                     var publicId = _cloudinaryService.ExtractPublicIdFromUrl(entity.ImageUrl);
                     if (publicId != null)
                     {
@@ -117,7 +112,6 @@ namespace TechTrack.Infrastructure.Service.SubCategory
                 }
                 else if (dto.Image != null)
                 {
-                    // Delete old image if exists
                     if (!string.IsNullOrWhiteSpace(entity.ImageUrl))
                     {
                         var oldPublicId = _cloudinaryService.ExtractPublicIdFromUrl(entity.ImageUrl);
@@ -126,30 +120,26 @@ namespace TechTrack.Infrastructure.Service.SubCategory
                             await _cloudinaryService.DeleteImageAsync(oldPublicId);
                         }
                     }
-
-                    // Upload new image
                     entity.ImageUrl = await _cloudinaryService.UploadImageAsync(dto.Image, "subcategories");
                 }
 
-                // Update other properties
                 entity.CategoryId = dto.CategoryId;
                 entity.SubCategoryName = dto.SubCategoryName;
                 entity.Description = dto.Description;
                 entity.DifficultyLevel = dto.DifficultyLevel;
                 entity.EstimatedDuration = dto.EstimatedDuration;
 
-                _context.SubCategories.Update(entity);
-                await _context.SaveChangesAsync();
+                var updated = await _subCategoryRepo.UpdateAsync(entity);
 
                 var resultDto = new SubCategoryGetDto
                 {
-                    SubCategoryId = entity.SubCategoryId,
-                    CategoryId = entity.CategoryId,
-                    SubCategoryName = entity.SubCategoryName,
-                    Description = entity.Description,
-                    DifficultyLevel = entity.DifficultyLevel,
-                    EstimatedDuration = entity.EstimatedDuration,
-                    ImageUrl = entity.ImageUrl
+                    SubCategoryId = updated!.SubCategoryId,
+                    CategoryId = updated.CategoryId,
+                    SubCategoryName = updated.SubCategoryName,
+                    Description = updated.Description,
+                    DifficultyLevel = updated.DifficultyLevel,
+                    EstimatedDuration = updated.EstimatedDuration,
+                    ImageUrl = updated.ImageUrl
                 };
 
                 return ServiceResult<SubCategoryGetDto>.Ok(resultDto);
@@ -164,11 +154,10 @@ namespace TechTrack.Infrastructure.Service.SubCategory
         {
             try
             {
-                var entity = await _context.SubCategories.FindAsync(id);
+                var entity = await _subCategoryRepo.GetByIdAsync(id);
                 if (entity == null)
                     return ServiceResult<bool>.Fail("SubCategory not found");
 
-                // Delete image from Cloudinary if exists
                 if (!string.IsNullOrWhiteSpace(entity.ImageUrl))
                 {
                     var publicId = _cloudinaryService.ExtractPublicIdFromUrl(entity.ImageUrl);
@@ -178,10 +167,9 @@ namespace TechTrack.Infrastructure.Service.SubCategory
                     }
                 }
 
-                _context.SubCategories.Remove(entity);
-                await _context.SaveChangesAsync();
+                var deleted = await _subCategoryRepo.DeleteAsync(id);
 
-                return ServiceResult<bool>.Ok(true);
+                return ServiceResult<bool>.Ok(deleted);
             }
             catch (Exception ex)
             {

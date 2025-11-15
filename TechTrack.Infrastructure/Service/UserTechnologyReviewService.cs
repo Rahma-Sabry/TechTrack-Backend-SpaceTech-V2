@@ -5,52 +5,55 @@ using TechPathNavigator.Domain.Common.Messages;
 using TechTrack.Domain.DTOs.UserTechnologyReview;
 using TechTrack.Domain.Interfaces.IRepo;
 using TechTrack.Domain.Interfaces.IService;
-using TechTrack.Domain.Models;
-using TechTrack.DTOs;
 using TechTrack.Infrastructure.Extensions;
 
 namespace TechTrack.Infrastructure.Service
 {
     public class UserTechnologyReviewService : IUserTechnologyReviewService
     {
-        private readonly IUserTechnologyReviewRepository _repo;
+        private readonly IUserTechnologyReviewRepository _reviewRepo;
 
-        public UserTechnologyReviewService(IUserTechnologyReviewRepository repo)
+        public UserTechnologyReviewService(IUserTechnologyReviewRepository reviewRepo)
         {
-            _repo = repo;
+            _reviewRepo = reviewRepo;
         }
 
         public async Task<string> CreateAsync(UserTechnologyReviewCreateDto dto)
         {
             var review = dto.ToModel();
-            await _repo.AddAsync(review);
+            await _reviewRepo.AddAsync(review);
             return ApiMessages.ReviewCreated;
         }
 
         public async Task<string> DeleteAsync(int id)
         {
-            var review = await _repo.GetByIdAsync(id);
-            await _repo.DeleteAsync(review!);
+            var deleted = await _reviewRepo.DeleteAsync(id);
+            if (!deleted)
+                return "Review not found";
+
             return ApiMessages.ReviewDeleted;
         }
 
         public async Task<IEnumerable<UserTechnologyReviewGetDto>> GetAllAsync()
         {
-            var reviews = await _repo.GetAllAsync();
+            var reviews = await _reviewRepo.GetAllAsync();
             return reviews.Select(r => r.ToGetDto());
         }
 
         public async Task<UserTechnologyReviewGetDto?> GetByIdAsync(int id)
         {
-            var review = await _repo.GetByIdAsync(id);
+            var review = await _reviewRepo.GetByIdAsync(id);
             return review?.ToGetDto();
         }
 
         public async Task<string> UpdateAsync(int id, UserTechnologyReviewUpdateDto dto)
         {
-            var review = await _repo.GetByIdAsync(id);
-            dto.ToModel(review!);
-            await _repo.UpdateAsync(review!);
+            var review = await _reviewRepo.GetByIdAsync(id);
+            if (review == null)
+                return "Review not found";
+
+            dto.ToModel(review);
+            await _reviewRepo.UpdateAsync(review);
             return ApiMessages.ReviewUpdated;
         }
     }

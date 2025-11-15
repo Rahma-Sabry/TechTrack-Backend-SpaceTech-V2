@@ -1,21 +1,24 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using TechPathNavigator.Domain.Common.Errors;
 using TechPathNavigator.Domain.Common.Results;
+using TechTrack.Domain.Interfaces.IRepo;
 using TechTrack.Domain.Interfaces.IService;
 using TechTrack.Domain.Models;
 using TechTrack.DTOs.Category;
-using TechTrack.Infrastructure.Data;
 
 namespace TechTrack.Infrastructure.Service.Category
 {
     public class CategoryService : ICategoryService
     {
-        private readonly AppDbContext _context;
+        private readonly ICategoryRepository _categoryRepo;
         private readonly ICloudinaryService _cloudinaryService;
 
-        public CategoryService(AppDbContext context, ICloudinaryService cloudinaryService)
+        public CategoryService(ICategoryRepository categoryRepo, ICloudinaryService cloudinaryService)
         {
-            _context = context;
+            _categoryRepo = categoryRepo;
             _cloudinaryService = cloudinaryService;
         }
 
@@ -23,19 +26,19 @@ namespace TechTrack.Infrastructure.Service.Category
         {
             try
             {
-                var categories = await _context.Categories
-                    .OrderByDescending(c => c.CreatedAt)
-                    .ToListAsync();
+                var categories = await _categoryRepo.GetAllAsync();
 
-                var dtoList = categories.Select(c => new CategoryGetDto
-                {
-                    CategoryId = c.CategoryId,
-                    CategoryName = c.CategoryName,
-                    Description = c.Description,
-                    ImageUrl = c.ImageUrl,
-                    CreatedAt = c.CreatedAt,
-                    UpdatedAt = c.UpdatedAt
-                }).ToList();
+                var dtoList = categories
+                    .OrderByDescending(c => c.CreatedAt)
+                    .Select(c => new CategoryGetDto
+                    {
+                        CategoryId = c.CategoryId,
+                        CategoryName = c.CategoryName,
+                        Description = c.Description,
+                        ImageUrl = c.ImageUrl,
+                        CreatedAt = c.CreatedAt,
+                        UpdatedAt = c.UpdatedAt
+                    }).ToList();
 
                 return ServiceResult<IEnumerable<CategoryGetDto>>.Ok(dtoList);
             }
@@ -49,7 +52,7 @@ namespace TechTrack.Infrastructure.Service.Category
         {
             try
             {
-                var category = await _context.Categories.FindAsync(id);
+                var category = await _categoryRepo.GetByIdAsync(id);
                 if (category == null)
                     return ServiceResult<CategoryGetDto>.Fail(ErrorMessages.Category_NotFound);
 
@@ -75,21 +78,18 @@ namespace TechTrack.Infrastructure.Service.Category
         {
             try
             {
-                // Check if category name already exists
-                var exists = await _context.Categories
-                    .AnyAsync(c => c.CategoryName.ToLower() == dto.CategoryName.ToLower());
+                var allCategories = await _categoryRepo.GetAllAsync();
+                var exists = allCategories.Any(c => c.CategoryName.ToLower() == dto.CategoryName.ToLower());
 
                 if (exists)
                     return ServiceResult<CategoryGetDto>.Fail(ErrorMessages.Category_NameExists);
 
-                // Upload image if provided
                 string? imageUrl = null;
                 if (dto.Image != null)
                 {
                     imageUrl = await _cloudinaryService.UploadImageAsync(dto.Image, "categories");
                 }
 
-                // Create entity
                 var category = new TechTrack.Domain.Models.Category
                 {
                     CategoryName = dto.CategoryName,
@@ -99,17 +99,16 @@ namespace TechTrack.Infrastructure.Service.Category
                     UpdatedAt = DateTime.UtcNow
                 };
 
-                _context.Categories.Add(category);
-                await _context.SaveChangesAsync();
+                var createdCategory = await _categoryRepo.AddAsync(category);
 
                 var resultDto = new CategoryGetDto
                 {
-                    CategoryId = category.CategoryId,
-                    CategoryName = category.CategoryName,
-                    Description = category.Description,
-                    ImageUrl = category.ImageUrl,
-                    CreatedAt = category.CreatedAt,
-                    UpdatedAt = category.UpdatedAt
+                    CategoryId = createdCategory.CategoryId,
+                    CategoryName = createdCategory.CategoryName,
+                    Description = createdCategory.Description,
+                    ImageUrl = createdCategory.ImageUrl,
+                    CreatedAt = createdCategory.CreatedAt,
+                    UpdatedAt = createdCategory.UpdatedAt
                 };
 
                 return ServiceResult<CategoryGetDto>.Ok(resultDto);
@@ -124,22 +123,19 @@ namespace TechTrack.Infrastructure.Service.Category
         {
             try
             {
-                var category = await _context.Categories.FindAsync(id);
+                var category = await _categoryRepo.GetByIdAsync(id);
                 if (category == null)
                     return ServiceResult<CategoryGetDto>.Fail(ErrorMessages.Category_NotFound);
 
-                // Check if new name conflicts with existing categories (excluding current)
-                var nameExists = await _context.Categories
-                    .AnyAsync(c => c.CategoryName.ToLower() == dto.CategoryName.ToLower()
-                                && c.CategoryId != id);
+                var allCategories = await _categoryRepo.GetAllAsync();
+                var nameExists = allCategories.Any(c =>
+                    c.CategoryName.ToLower() == dto.CategoryName.ToLower() && c.CategoryId != id);
 
                 if (nameExists)
                     return ServiceResult<CategoryGetDto>.Fail(ErrorMessages.Category_NameExists);
 
-                // Handle image update/deletion
                 if (dto.DeleteImage && !string.IsNullOrWhiteSpace(category.ImageUrl))
                 {
-                    // Delete existing image
                     var publicId = _cloudinaryService.ExtractPublicIdFromUrl(category.ImageUrl);
                     if (publicId != null)
                     {
@@ -149,7 +145,6 @@ namespace TechTrack.Infrastructure.Service.Category
                 }
                 else if (dto.Image != null)
                 {
-                    // Delete old image if exists
                     if (!string.IsNullOrWhiteSpace(category.ImageUrl))
                     {
                         var oldPublicId = _cloudinaryService.ExtractPublicIdFromUrl(category.ImageUrl);
@@ -158,27 +153,23 @@ namespace TechTrack.Infrastructure.Service.Category
                             await _cloudinaryService.DeleteImageAsync(oldPublicId);
                         }
                     }
-
-                    // Upload new image
                     category.ImageUrl = await _cloudinaryService.UploadImageAsync(dto.Image, "categories");
                 }
 
-                // Update other properties
                 category.CategoryName = dto.CategoryName;
                 category.Description = dto.Description;
                 category.UpdatedAt = DateTime.UtcNow;
 
-                _context.Categories.Update(category);
-                await _context.SaveChangesAsync();
+                var updatedCategory = await _categoryRepo.UpdateAsync(category);
 
                 var resultDto = new CategoryGetDto
                 {
-                    CategoryId = category.CategoryId,
-                    CategoryName = category.CategoryName,
-                    Description = category.Description,
-                    ImageUrl = category.ImageUrl,
-                    CreatedAt = category.CreatedAt,
-                    UpdatedAt = category.UpdatedAt
+                    CategoryId = updatedCategory!.CategoryId,
+                    CategoryName = updatedCategory.CategoryName,
+                    Description = updatedCategory.Description,
+                    ImageUrl = updatedCategory.ImageUrl,
+                    CreatedAt = updatedCategory.CreatedAt,
+                    UpdatedAt = updatedCategory.UpdatedAt
                 };
 
                 return ServiceResult<CategoryGetDto>.Ok(resultDto);
@@ -193,11 +184,10 @@ namespace TechTrack.Infrastructure.Service.Category
         {
             try
             {
-                var category = await _context.Categories.FindAsync(id);
+                var category = await _categoryRepo.GetByIdAsync(id);
                 if (category == null)
                     return ServiceResult<bool>.Fail(ErrorMessages.Category_NotFound);
 
-                // Delete image from Cloudinary if exists
                 if (!string.IsNullOrWhiteSpace(category.ImageUrl))
                 {
                     var publicId = _cloudinaryService.ExtractPublicIdFromUrl(category.ImageUrl);
@@ -207,10 +197,9 @@ namespace TechTrack.Infrastructure.Service.Category
                     }
                 }
 
-                _context.Categories.Remove(category);
-                await _context.SaveChangesAsync();
+                var deleted = await _categoryRepo.DeleteAsync(id);
 
-                return ServiceResult<bool>.Ok(true);
+                return ServiceResult<bool>.Ok(deleted);
             }
             catch (Exception ex)
             {

@@ -2,12 +2,8 @@
 
 namespace TechTrack.Domain.Interfaces.IRepo
 {
-    public interface ITechnologyRepository
+    public interface ITechnologyRepository : IGenericRepository<Technology>
     {
-        Task<IEnumerable<Technology>> GetAllAsync();
-        Task<Technology?> GetByIdAsync(int id);
-        Task<Technology> AddAsync(Technology entity);
-        Task<Technology?> UpdateAsync(Technology entity);
-        Task<bool> DeleteAsync(int id);
+        // All methods inherited, but GetAllAsync and GetByIdAsync include Track
     }
 }

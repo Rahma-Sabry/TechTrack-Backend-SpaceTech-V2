@@ -1,55 +1,60 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using TechTrack.Domain.Interfaces.IRepo;
 using TechTrack.Domain.Models;
-using TechTrack.Infrastructure.Data;
 
 namespace TechTrack.Infrastructure.Repository
 {
     public class UserRepository : IUserRepository
     {
-        private readonly AppDbContext _context;
+        private readonly List<User> _users = new();
+        private int _nextId = 1;
 
-        public UserRepository(AppDbContext context)
+        public async Task<IEnumerable<User>> GetAllAsync()
         {
-            _context = context;
+            return await Task.FromResult(_users.AsEnumerable());
         }
 
         public async Task<User?> GetByIdAsync(int id)
         {
-            return await _context.Users
-                .Include(u => u.Reviews)
-                .FirstOrDefaultAsync(u => u.UserId == id);
+            return await Task.FromResult(_users.FirstOrDefault(u => u.UserId == id));
         }
 
-        public async Task<IEnumerable<User>> GetAllAsync()
+        public async Task<User> AddAsync(User user)
         {
-            return await _context.Users
-                .Include(u => u.Reviews)
-                .ToListAsync();
+            user.UserId = _nextId++;
+            _users.Add(user);
+            return await Task.FromResult(user);
         }
 
-        public async Task AddAsync(User user)
+        public async Task<User?> UpdateAsync(User user)
         {
-            await _context.Users.AddAsync(user);
-            await _context.SaveChangesAsync();
+            var existing = _users.FirstOrDefault(u => u.UserId == user.UserId);
+            if (existing == null)
+                return null;
+
+            existing.UserName = user.UserName;
+            existing.Email = user.Email;
+            if (!string.IsNullOrWhiteSpace(user.PasswordHash))
+                existing.PasswordHash = user.PasswordHash;
+
+            return await Task.FromResult(existing);
         }
 
-        public async Task UpdateAsync(User user)
+        public async Task<bool> DeleteAsync(int id)
         {
-            _context.Users.Update(user);
-            await _context.SaveChangesAsync();
-        }
+            var user = _users.FirstOrDefault(u => u.UserId == id);
+            if (user == null)
+                return false;
 
-        public async Task DeleteAsync(User user)
-        {
-            _context.Users.Remove(user);
-            await _context.SaveChangesAsync();
+            _users.Remove(user);
+            return await Task.FromResult(true);
         }
 
         public async Task<bool> ExistsByEmailAsync(string email)
         {
-            return await _context.Users
-                .AnyAsync(u => u.Email.ToLower() == email.ToLower());
+            return await Task.FromResult(_users.Any(u => u.Email == email));
         }
     }
 }

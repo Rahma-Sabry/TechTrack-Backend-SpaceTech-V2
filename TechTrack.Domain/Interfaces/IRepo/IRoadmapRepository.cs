@@ -2,13 +2,8 @@
 
 namespace TechTrack.Domain.Interfaces.IRepo
 {
-    public interface IRoadmapRepository
+    public interface IRoadmapRepository : IGenericRepository<Roadmap>
     {
-        Task<IEnumerable<Roadmap>> GetAllAsync();
-        Task<Roadmap?> GetByIdAsync(int id);
-        Task AddAsync(Roadmap roadmap);
-        Task UpdateAsync(Roadmap roadmap);
-        Task DeleteAsync(Roadmap roadmap);
-        Task SaveChangesAsync();
+        // All methods inherited from IGenericRepository
     }
 }

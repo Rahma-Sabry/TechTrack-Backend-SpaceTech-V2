@@ -1,16 +1,10 @@
-﻿using TechTrack.Domain.Models;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using TechTrack.Domain.Models;
 
 namespace TechTrack.Domain.Interfaces.IRepo
 {
-    public interface IUserRepository
+    public interface IUserRepository : IGenericRepository<User>
     {
-        Task<User?> GetByIdAsync(int id);
-        Task<IEnumerable<User>> GetAllAsync();
-        Task AddAsync(User user);
-        Task UpdateAsync(User user);
-        Task DeleteAsync(User user);
         Task<bool> ExistsByEmailAsync(string email);
     }
 }

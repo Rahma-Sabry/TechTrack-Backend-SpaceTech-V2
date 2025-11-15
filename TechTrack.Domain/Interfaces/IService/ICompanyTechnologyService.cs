@@ -1,13 +1,8 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using TechTrack.Domain.DTOs.CompanyTechnology;
-using TechTrack.Domain.Interfaces.IRepo;
-using TechTrack.Domain.Interfaces.IService;
-using TechTrack.Domain.Models;
-using TechTrack.DTOs;
 
-namespace TechTrack.Infrastructure.Service
+namespace TechTrack.Domain.Interfaces.IService
 {
     public interface ICompanyTechnologyService
     {

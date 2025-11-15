@@ -6,19 +6,17 @@ using TechPathNavigator.Domain.Common.Messages;
 using TechTrack.Domain.DTOs.User;
 using TechTrack.Domain.Interfaces.IRepo;
 using TechTrack.Domain.Interfaces.IService;
-using TechTrack.Domain.Models;
-using TechTrack.DTOs;
 using TechTrack.Infrastructure.Extensions;
 
 namespace TechTrack.Infrastructure.Service
 {
     public class UserService : IUserService
     {
-        private readonly IUserRepository _repo;
+        private readonly IUserRepository _userRepo;
 
-        public UserService(IUserRepository repo)
+        public UserService(IUserRepository userRepo)
         {
-            _repo = repo;
+            _userRepo = userRepo;
         }
 
         public async Task<string> CreateAsync(UserCreateDto dto)
@@ -29,43 +27,43 @@ namespace TechTrack.Infrastructure.Service
             if (string.IsNullOrWhiteSpace(dto.Email))
                 return ErrorMessages.User_EmailRequired;
 
-            if (await _repo.ExistsByEmailAsync(dto.Email))
+            if (await _userRepo.ExistsByEmailAsync(dto.Email))
                 return ErrorMessages.User_EmailExists;
 
             var user = dto.ToModel();
-            await _repo.AddAsync(user);
+            await _userRepo.AddAsync(user);
             return ApiMessages.UserCreated;
         }
 
         public async Task<string> DeleteAsync(int id)
         {
-            var user = await _repo.GetByIdAsync(id);
-            if (user == null) return ErrorMessages.User_NotFound;
+            var deleted = await _userRepo.DeleteAsync(id);
+            if (!deleted)
+                return ErrorMessages.User_NotFound;
 
-            await _repo.DeleteAsync(user);
             return ApiMessages.UserDeleted;
         }
 
         public async Task<IEnumerable<UserGetDto>> GetAllAsync()
         {
-            var users = await _repo.GetAllAsync();
+            var users = await _userRepo.GetAllAsync();
             return users.Select(u => u.ToGetDto());
         }
 
         public async Task<UserGetDto?> GetByIdAsync(int id)
         {
-            var user = await _repo.GetByIdAsync(id);
-            if (user == null) return null;
-            return user.ToGetDto();
+            var user = await _userRepo.GetByIdAsync(id);
+            return user?.ToGetDto();
         }
 
         public async Task<string> UpdateAsync(int id, UserUpdateDto dto)
         {
-            var user = await _repo.GetByIdAsync(id);
-            if (user == null) return ErrorMessages.User_NotFound;
+            var user = await _userRepo.GetByIdAsync(id);
+            if (user == null)
+                return ErrorMessages.User_NotFound;
 
             user = dto.ToModel(user);
-            await _repo.UpdateAsync(user);
+            await _userRepo.UpdateAsync(user);
             return ApiMessages.UserUpdated;
         }
     }

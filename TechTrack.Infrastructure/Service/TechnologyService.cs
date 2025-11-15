@@ -1,31 +1,32 @@
-﻿using Microsoft.EntityFrameworkCore;
-using TechPathNavigator.Domain.Common.Results;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using TechPathNavigator.Domain.Common.Errors;
+using TechPathNavigator.Domain.Common.Results;
+using TechTrack.Domain.Interfaces.IRepo;
 using TechTrack.Domain.Interfaces.IService;
 using TechTrack.DTOs.Technology;
-using TechTrack.Infrastructure.Data;
 using TechTrack.Infrastructure.Extensions;
 
 namespace TechTrack.Infrastructure.Service.Technology
 {
     public class TechnologyService : ITechnologyService
     {
-        private readonly AppDbContext _context;
+        private readonly ITechnologyRepository _technologyRepo;
 
-        public TechnologyService(AppDbContext context)
+        public TechnologyService(ITechnologyRepository technologyRepo)
         {
-            _context = context;
+            _technologyRepo = technologyRepo;
         }
 
         public async Task<ServiceResult<IEnumerable<TechnologyGetDto>>> GetAllAsync()
         {
-            var techs = await _context.Technologies.Include(t => t.Track).ToListAsync();
+            var techs = await _technologyRepo.GetAllAsync();
             return ServiceResult<IEnumerable<TechnologyGetDto>>.Ok(techs.ToGetDtoList());
         }
 
         public async Task<ServiceResult<TechnologyGetDto>> GetByIdAsync(int id)
         {
-            var tech = await _context.Technologies.FindAsync(id);
+            var tech = await _technologyRepo.GetByIdAsync(id);
             if (tech == null)
                 return ServiceResult<TechnologyGetDto>.Fail(ErrorMessages.Technology_NotFound);
 
@@ -35,31 +36,27 @@ namespace TechTrack.Infrastructure.Service.Technology
         public async Task<ServiceResult<TechnologyGetDto>> CreateAsync(TechnologyCreateDto dto)
         {
             var entity = dto.ToEntity();
-            _context.Technologies.Add(entity);
-            await _context.SaveChangesAsync();
-            return ServiceResult<TechnologyGetDto>.Ok(entity.ToGetDto());
+            var created = await _technologyRepo.AddAsync(entity);
+            return ServiceResult<TechnologyGetDto>.Ok(created.ToGetDto());
         }
 
         public async Task<ServiceResult<TechnologyGetDto>> UpdateAsync(int id, TechnologyUpdateDto dto)
         {
-            var entity = await _context.Technologies.FindAsync(id);
+            var entity = await _technologyRepo.GetByIdAsync(id);
             if (entity == null)
                 return ServiceResult<TechnologyGetDto>.Fail(ErrorMessages.Technology_NotFound);
 
             dto.MapToEntity(entity);
-            _context.Technologies.Update(entity);
-            await _context.SaveChangesAsync();
-            return ServiceResult<TechnologyGetDto>.Ok(entity.ToGetDto());
+            var updated = await _technologyRepo.UpdateAsync(entity);
+            return ServiceResult<TechnologyGetDto>.Ok(updated!.ToGetDto());
         }
 
         public async Task<ServiceResult<bool>> DeleteAsync(int id)
         {
-            var entity = await _context.Technologies.FindAsync(id);
-            if (entity == null)
+            var deleted = await _technologyRepo.DeleteAsync(id);
+            if (!deleted)
                 return ServiceResult<bool>.Fail(ErrorMessages.Technology_NotFound);
 
-            _context.Technologies.Remove(entity);
-            await _context.SaveChangesAsync();
             return ServiceResult<bool>.Ok(true);
         }
     }

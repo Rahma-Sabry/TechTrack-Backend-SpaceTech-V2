@@ -1,51 +1,55 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using TechTrack.Domain.Interfaces.IRepo;
 using TechTrack.Domain.Models;
-using TechTrack.Infrastructure.Data;
 
 namespace TechTrack.Infrastructure.Repository
 {
     public class UserTechnologyReviewRepository : IUserTechnologyReviewRepository
     {
-        private readonly AppDbContext _context;
+        private readonly List<UserTechnologyReview> _reviews = new();
+        private int _nextId = 1;
 
-        public UserTechnologyReviewRepository(AppDbContext context)
+        public async Task<IEnumerable<UserTechnologyReview>> GetAllAsync()
         {
-            _context = context;
+            return await Task.FromResult(_reviews.AsEnumerable());
         }
 
         public async Task<UserTechnologyReview?> GetByIdAsync(int id)
         {
-            return await _context.UserTechnologyReviews
-                .Include(r => r.User)
-                .Include(r => r.Technology)
-                .FirstOrDefaultAsync(r => r.ReviewId == id);
+            return await Task.FromResult(_reviews.FirstOrDefault(r => r.ReviewId == id));
         }
 
-        public async Task<IEnumerable<UserTechnologyReview>> GetAllAsync()
+        public async Task<UserTechnologyReview> AddAsync(UserTechnologyReview review)
         {
-            return await _context.UserTechnologyReviews
-                .Include(r => r.User)
-                .Include(r => r.Technology)
-                .ToListAsync();
+            review.ReviewId = _nextId++;
+            _reviews.Add(review);
+            return await Task.FromResult(review);
         }
 
-        public async Task AddAsync(UserTechnologyReview review)
+        public async Task<UserTechnologyReview?> UpdateAsync(UserTechnologyReview review)
         {
-            await _context.UserTechnologyReviews.AddAsync(review);
-            await _context.SaveChangesAsync();
+            var existing = _reviews.FirstOrDefault(r => r.ReviewId == review.ReviewId);
+            if (existing == null)
+                return null;
+
+            existing.UserId = review.UserId;
+            existing.TechnologyId = review.TechnologyId;
+            existing.Rating = review.Rating;
+            existing.ReviewText = review.ReviewText;
+
+            return await Task.FromResult(existing);
         }
 
-        public async Task UpdateAsync(UserTechnologyReview review)
+        public async Task<bool> DeleteAsync(int id)
         {
-            _context.UserTechnologyReviews.Update(review);
-            await _context.SaveChangesAsync();
-        }
+            var review = _reviews.FirstOrDefault(r => r.ReviewId == id);
+            if (review == null)
+                return false;
 
-        public async Task DeleteAsync(UserTechnologyReview review)
-        {
-            _context.UserTechnologyReviews.Remove(review);
-            await _context.SaveChangesAsync();
+            _reviews.Remove(review);
+            return await Task.FromResult(true);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using TechTrack.Domain.Interfaces.IRepo;
@@ -7,47 +8,24 @@ using TechTrack.Infrastructure.Data;
 
 namespace TechTrack.Infrastructure.Repo
 {
-    public class CategoryRepository : ICategoryRepository
+    public class CategoryRepository : GenericRepository<Category>, ICategoryRepository
     {
-        private readonly AppDbContext _context;
-
-        public CategoryRepository(AppDbContext context)
+        public CategoryRepository(AppDbContext context) : base(context)
         {
-            _context = context;
         }
 
-        public async Task<IEnumerable<Category>> GetAllAsync()
+        public override async Task<IEnumerable<Category>> GetAllAsync()
         {
-            return await _context.Categories
+            return await _dbSet
                 .Include(c => c.SubCategories)
                 .ToListAsync();
         }
 
-        public async Task<Category?> GetByIdAsync(int id)
+        public override async Task<Category?> GetByIdAsync(int id)
         {
-            return await _context.Categories
+            return await _dbSet
                 .Include(c => c.SubCategories)
                 .FirstOrDefaultAsync(c => c.CategoryId == id);
-        }
-
-        public async Task AddAsync(Category category)
-        {
-            await _context.Categories.AddAsync(category);
-        }
-
-        public void Update(Category category)
-        {
-            _context.Categories.Update(category);
-        }
-
-        public void Delete(Category category)
-        {
-            _context.Categories.Remove(category);
-        }
-
-        public async Task SaveChangesAsync()
-        {
-            await _context.SaveChangesAsync();
         }
     }
 }

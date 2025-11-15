@@ -4,13 +4,9 @@ using TechTrack.Domain.Models;
 
 namespace TechTrack.Domain.Interfaces.IRepo
 {
-    public interface ICategoryRepository
+    public interface ICategoryRepository : IGenericRepository<Category>
     {
-        Task<IEnumerable<Category>> GetAllAsync();
-        Task<Category?> GetByIdAsync(int id);
-        Task AddAsync(Category category);
-        void Update(Category category);
-        void Delete(Category category);
-        Task SaveChangesAsync();
+        // All methods inherited from IGenericRepository
+        // GetAllAsync and GetByIdAsync are overridden to include SubCategories
     }
 }

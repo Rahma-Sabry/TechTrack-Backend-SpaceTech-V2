@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using TechTrack.Domain.DTOs.Company;
-using TechTrack.DTOs;
 
 namespace TechTrack.Domain.Interfaces.IService
 {

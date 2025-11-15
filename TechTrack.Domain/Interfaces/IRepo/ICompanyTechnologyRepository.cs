@@ -1,16 +1,10 @@
-﻿using TechTrack.Domain.Models;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using TechTrack.Domain.Models;
 
 namespace TechTrack.Domain.Interfaces.IRepo
 {
-    public interface ICompanyTechnologyRepository
+    public interface ICompanyTechnologyRepository : IGenericRepository<CompanyTechnology>
     {
-        Task<CompanyTechnology?> GetByIdAsync(int id);
-        Task<IEnumerable<CompanyTechnology>> GetAllAsync();
-        Task AddAsync(CompanyTechnology companyTech);
-        Task UpdateAsync(CompanyTechnology companyTech);
-        Task DeleteAsync(CompanyTechnology companyTech);
         Task<bool> ExistsPairAsync(int companyId, int technologyId);
     }
 }
