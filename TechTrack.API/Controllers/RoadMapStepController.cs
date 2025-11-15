@@ -71,5 +71,26 @@ namespace TechTrack.API.Controllers
 
             return NoContent();
         }
+
+        // Get all roadmaps, with their steps grouped inside
+        [HttpGet("grouped")] // This will respond to GET api/RoadmapStep/grouped
+        public async Task<ActionResult<IEnumerable<RoadmapStepGetDto>>> GetAllGrouped()
+        {
+            // 1. Get the flat list of ALL steps
+            var allSteps = await _service.GetAllAsync();
+
+            // 2. Group the steps by their RoadmapId using LINQ
+            var groupedRoadmaps = allSteps
+                .GroupBy(step => step.RoadmapId) // Group by the ID
+                .Select(group => new RoadmapStepGetDto // Create the new DTO
+                {
+                    RoadmapId = group.Key, // The ID (1, 2, 3...)
+                    Steps = group.OrderBy(step => step.StepOrder).ToList() // The list of steps for that ID
+                })
+                .OrderBy(roadmap => roadmap.RoadmapId); // Optional: sort the roadmaps
+
+            // 3. Return the new, grouped list
+            return Ok(groupedRoadmaps);
+        }
     }
 }

@@ -1,4 +1,5 @@
-﻿namespace TechTrack.Domain.DTOs.RoadmapStep
+﻿
+namespace TechTrack.Domain.DTOs.RoadmapStep
 {
     public class RoadmapStepGetDto
     {
@@ -7,5 +8,6 @@
         public string StepTitle { get; set; }
         public string? StepDescription { get; set; }
         public int StepOrder { get; set; }
+        public List<RoadmapStepGetDto> Steps { get; set; }
     }
 }
