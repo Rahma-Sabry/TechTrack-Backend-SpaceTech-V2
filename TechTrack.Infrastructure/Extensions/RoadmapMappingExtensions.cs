@@ -16,7 +16,8 @@ namespace TechTrack.Infrastructure.Extensions
                 RoadmapId = roadmap.RoadmapId,
                 TechnologyId = roadmap.TechnologyId,
                 Title = roadmap.Title,
-                Description = roadmap.Description
+                Description = roadmap.Description,
+                Steps = roadmap.Steps ?? new List<string>()
             };
         }
 
@@ -33,7 +34,8 @@ namespace TechTrack.Infrastructure.Extensions
             {
                 TechnologyId = dto.TechnologyId,
                 Title = dto.Title,
-                Description = dto.Description
+                Description = dto.Description,
+                Steps = dto.Steps ?? new List<string>() 
             };
         }
 
@@ -41,8 +43,14 @@ namespace TechTrack.Infrastructure.Extensions
         {
             if (dto == null || roadmap == null) return;
 
-            roadmap.Title = dto.Title;
-            roadmap.Description = dto.Description;
+            if (!string.IsNullOrEmpty(dto.Title))
+                roadmap.Title = dto.Title;
+
+            if (!string.IsNullOrEmpty(dto.Description))
+                roadmap.Description = dto.Description;
+
+            if (dto.Steps != null)
+                roadmap.Steps = dto.Steps;
         }
     }
 }

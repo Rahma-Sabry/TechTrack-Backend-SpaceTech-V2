@@ -47,7 +47,6 @@ builder.Services.AddScoped<ISubCategoryRepository, SubCategoryRepository>();
 
 // Roadmap & RoadmapStep
 builder.Services.AddScoped<IRoadmapRepository, RoadmapRepository>();
-builder.Services.AddScoped<IRoadmapStepRepository, RoadmapStepRepository>();
 
 // ------------------- Services -------------------
 
@@ -70,9 +69,8 @@ builder.Services.AddScoped<ITechnologyService, TechnologyService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ISubCategoryService, SubCategoryService>();
 
-// Roadmap & RoadmapStep
+// Roadmap 
 builder.Services.AddScoped<IRoadmapService, RoadmapService>();
-builder.Services.AddScoped<IRoadmapStepService, RoadmapStepService>();
 
 // Cloudinary
 builder.Services.Configure<CloudinarySettings>(builder.Configuration.GetSection("CloudinarySettings"));

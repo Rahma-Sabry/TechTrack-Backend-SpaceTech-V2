@@ -14,6 +14,6 @@ namespace TechTrack.Domain.Models
         public string? Title { get; set; }
         public string? Description { get; set; }
 
-        public ICollection<RoadmapStep>? RoadmapSteps { get; set; }
+        public List<string> Steps { get; set; } = new List<string>();
     }
 }

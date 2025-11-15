@@ -52,8 +52,8 @@ namespace TechTrack.Infrastructure.Data
                 Console.WriteLine($"✅ Created {roadmaps.Count} roadmaps");
 
                 // 9. Seed RoadmapSteps
-                var roadmapSteps = await SeedRoadmapSteps(context, roadmaps);
-                Console.WriteLine($"✅ Created {roadmapSteps.Count} roadmap steps");
+                //var roadmapSteps = await SeedRoadmapSteps(context, roadmaps);
+                //Console.WriteLine($"✅ Created {roadmapSteps.Count} roadmap steps");
 
                 // 10. Seed Interview Questions
                 var questions = await SeedInterviewQuestions(context, technologies);
@@ -340,53 +340,53 @@ namespace TechTrack.Infrastructure.Data
             return roadmaps;
         }
 
-        private static async Task<List<RoadmapStep>> SeedRoadmapSteps(AppDbContext context, List<Roadmap> roadmaps)
-        {
-            var steps = new List<RoadmapStep>();
+        //private static async Task<List<RoadmapStep>> SeedRoadmapSteps(AppDbContext context, List<Roadmap> roadmaps)
+        //{
+        //    var steps = new List<RoadmapStep>();
 
-            // React Mastery Path steps
-            steps.AddRange(new[]
-            {
-                new RoadmapStep { RoadmapId = roadmaps[0].RoadmapId, StepTitle = "JavaScript Fundamentals", StepDescription = "Master ES6+ features, async/await, and modern JavaScript", StepOrder = 1, CreatedAt = DateTime.UtcNow },
-                new RoadmapStep { RoadmapId = roadmaps[0].RoadmapId, StepTitle = "React Basics", StepDescription = "Components, props, state, and JSX", StepOrder = 2, CreatedAt = DateTime.UtcNow },
-                new RoadmapStep { RoadmapId = roadmaps[0].RoadmapId, StepTitle = "React Hooks", StepDescription = "useState, useEffect, useContext, custom hooks", StepOrder = 3, CreatedAt = DateTime.UtcNow },
-                new RoadmapStep { RoadmapId = roadmaps[0].RoadmapId, StepTitle = "State Management", StepDescription = "Redux, Context API, and state management patterns", StepOrder = 4, CreatedAt = DateTime.UtcNow },
-                new RoadmapStep { RoadmapId = roadmaps[0].RoadmapId, StepTitle = "Advanced Patterns", StepDescription = "Performance optimization, code splitting, lazy loading", StepOrder = 5, CreatedAt = DateTime.UtcNow }
-            });
+        //    // React Mastery Path steps
+        //    steps.AddRange(new[]
+        //    {
+        //        new RoadmapStep { RoadmapId = roadmaps[0].RoadmapId, StepTitle = "JavaScript Fundamentals", StepDescription = "Master ES6+ features, async/await, and modern JavaScript", StepOrder = 1, CreatedAt = DateTime.UtcNow },
+        //        new RoadmapStep { RoadmapId = roadmaps[0].RoadmapId, StepTitle = "React Basics", StepDescription = "Components, props, state, and JSX", StepOrder = 2, CreatedAt = DateTime.UtcNow },
+        //        new RoadmapStep { RoadmapId = roadmaps[0].RoadmapId, StepTitle = "React Hooks", StepDescription = "useState, useEffect, useContext, custom hooks", StepOrder = 3, CreatedAt = DateTime.UtcNow },
+        //        new RoadmapStep { RoadmapId = roadmaps[0].RoadmapId, StepTitle = "State Management", StepDescription = "Redux, Context API, and state management patterns", StepOrder = 4, CreatedAt = DateTime.UtcNow },
+        //        new RoadmapStep { RoadmapId = roadmaps[0].RoadmapId, StepTitle = "Advanced Patterns", StepDescription = "Performance optimization, code splitting, lazy loading", StepOrder = 5, CreatedAt = DateTime.UtcNow }
+        //    });
 
-            // Node.js Backend Developer steps
-            steps.AddRange(new[]
-            {
-                new RoadmapStep { RoadmapId = roadmaps[1].RoadmapId, StepTitle = "Node.js Basics", StepDescription = "Event loop, modules, npm, and core APIs", StepOrder = 1, CreatedAt = DateTime.UtcNow },
-                new RoadmapStep { RoadmapId = roadmaps[1].RoadmapId, StepTitle = "Express.js Framework", StepDescription = "Routing, middleware, and REST APIs", StepOrder = 2, CreatedAt = DateTime.UtcNow },
-                new RoadmapStep { RoadmapId = roadmaps[1].RoadmapId, StepTitle = "Database Integration", StepDescription = "MongoDB, PostgreSQL, ORMs", StepOrder = 3, CreatedAt = DateTime.UtcNow },
-                new RoadmapStep { RoadmapId = roadmaps[1].RoadmapId, StepTitle = "Authentication & Security", StepDescription = "JWT, OAuth, security best practices", StepOrder = 4, CreatedAt = DateTime.UtcNow },
-                new RoadmapStep { RoadmapId = roadmaps[1].RoadmapId, StepTitle = "Testing & Deployment", StepDescription = "Unit tests, integration tests, CI/CD", StepOrder = 5, CreatedAt = DateTime.UtcNow }
-            });
+        //    // Node.js Backend Developer steps
+        //    steps.AddRange(new[]
+        //    {
+        //        new RoadmapStep { RoadmapId = roadmaps[1].RoadmapId, StepTitle = "Node.js Basics", StepDescription = "Event loop, modules, npm, and core APIs", StepOrder = 1, CreatedAt = DateTime.UtcNow },
+        //        new RoadmapStep { RoadmapId = roadmaps[1].RoadmapId, StepTitle = "Express.js Framework", StepDescription = "Routing, middleware, and REST APIs", StepOrder = 2, CreatedAt = DateTime.UtcNow },
+        //        new RoadmapStep { RoadmapId = roadmaps[1].RoadmapId, StepTitle = "Database Integration", StepDescription = "MongoDB, PostgreSQL, ORMs", StepOrder = 3, CreatedAt = DateTime.UtcNow },
+        //        new RoadmapStep { RoadmapId = roadmaps[1].RoadmapId, StepTitle = "Authentication & Security", StepDescription = "JWT, OAuth, security best practices", StepOrder = 4, CreatedAt = DateTime.UtcNow },
+        //        new RoadmapStep { RoadmapId = roadmaps[1].RoadmapId, StepTitle = "Testing & Deployment", StepDescription = "Unit tests, integration tests, CI/CD", StepOrder = 5, CreatedAt = DateTime.UtcNow }
+        //    });
 
-            // Python for Data Science steps
-            steps.AddRange(new[]
-            {
-                new RoadmapStep { RoadmapId = roadmaps[2].RoadmapId, StepTitle = "Python Fundamentals", StepDescription = "Syntax, data structures, OOP concepts", StepOrder = 1, CreatedAt = DateTime.UtcNow },
-                new RoadmapStep { RoadmapId = roadmaps[2].RoadmapId, StepTitle = "NumPy & Pandas", StepDescription = "Data manipulation and analysis", StepOrder = 2, CreatedAt = DateTime.UtcNow },
-                new RoadmapStep { RoadmapId = roadmaps[2].RoadmapId, StepTitle = "Data Visualization", StepDescription = "Matplotlib, Seaborn, Plotly", StepOrder = 3, CreatedAt = DateTime.UtcNow },
-                new RoadmapStep { RoadmapId = roadmaps[2].RoadmapId, StepTitle = "Statistical Analysis", StepDescription = "Descriptive statistics, hypothesis testing", StepOrder = 4, CreatedAt = DateTime.UtcNow },
-                new RoadmapStep { RoadmapId = roadmaps[2].RoadmapId, StepTitle = "Machine Learning Basics", StepDescription = "Scikit-learn, model training and evaluation", StepOrder = 5, CreatedAt = DateTime.UtcNow }
-            });
+        //    // Python for Data Science steps
+        //    steps.AddRange(new[]
+        //    {
+        //        new RoadmapStep { RoadmapId = roadmaps[2].RoadmapId, StepTitle = "Python Fundamentals", StepDescription = "Syntax, data structures, OOP concepts", StepOrder = 1, CreatedAt = DateTime.UtcNow },
+        //        new RoadmapStep { RoadmapId = roadmaps[2].RoadmapId, StepTitle = "NumPy & Pandas", StepDescription = "Data manipulation and analysis", StepOrder = 2, CreatedAt = DateTime.UtcNow },
+        //        new RoadmapStep { RoadmapId = roadmaps[2].RoadmapId, StepTitle = "Data Visualization", StepDescription = "Matplotlib, Seaborn, Plotly", StepOrder = 3, CreatedAt = DateTime.UtcNow },
+        //        new RoadmapStep { RoadmapId = roadmaps[2].RoadmapId, StepTitle = "Statistical Analysis", StepDescription = "Descriptive statistics, hypothesis testing", StepOrder = 4, CreatedAt = DateTime.UtcNow },
+        //        new RoadmapStep { RoadmapId = roadmaps[2].RoadmapId, StepTitle = "Machine Learning Basics", StepDescription = "Scikit-learn, model training and evaluation", StepOrder = 5, CreatedAt = DateTime.UtcNow }
+        //    });
 
-            // Docker steps
-            steps.AddRange(new[]
-            {
-                new RoadmapStep { RoadmapId = roadmaps[4].RoadmapId, StepTitle = "Container Basics", StepDescription = "Images, containers, Docker CLI", StepOrder = 1, CreatedAt = DateTime.UtcNow },
-                new RoadmapStep { RoadmapId = roadmaps[4].RoadmapId, StepTitle = "Dockerfile Creation", StepDescription = "Writing efficient Dockerfiles", StepOrder = 2, CreatedAt = DateTime.UtcNow },
-                new RoadmapStep { RoadmapId = roadmaps[4].RoadmapId, StepTitle = "Docker Compose", StepDescription = "Multi-container applications", StepOrder = 3, CreatedAt = DateTime.UtcNow },
-                new RoadmapStep { RoadmapId = roadmaps[4].RoadmapId, StepTitle = "Networking & Volumes", StepDescription = "Container networking and data persistence", StepOrder = 4, CreatedAt = DateTime.UtcNow }
-            });
+        //    // Docker steps
+        //    steps.AddRange(new[]
+        //    {
+        //        new RoadmapStep { RoadmapId = roadmaps[4].RoadmapId, StepTitle = "Container Basics", StepDescription = "Images, containers, Docker CLI", StepOrder = 1, CreatedAt = DateTime.UtcNow },
+        //        new RoadmapStep { RoadmapId = roadmaps[4].RoadmapId, StepTitle = "Dockerfile Creation", StepDescription = "Writing efficient Dockerfiles", StepOrder = 2, CreatedAt = DateTime.UtcNow },
+        //        new RoadmapStep { RoadmapId = roadmaps[4].RoadmapId, StepTitle = "Docker Compose", StepDescription = "Multi-container applications", StepOrder = 3, CreatedAt = DateTime.UtcNow },
+        //        new RoadmapStep { RoadmapId = roadmaps[4].RoadmapId, StepTitle = "Networking & Volumes", StepDescription = "Container networking and data persistence", StepOrder = 4, CreatedAt = DateTime.UtcNow }
+        //    });
 
-            context.RoadmapSteps.AddRange(steps);
-            await context.SaveChangesAsync();
-            return steps;
-        }
+        //    context.RoadmapSteps.AddRange(steps);
+        //    await context.SaveChangesAsync();
+        //    return steps;
+        //}
 
         private static async Task<List<InterviewQuestion>> SeedInterviewQuestions(AppDbContext context, List<Technology> technologies)
         {
