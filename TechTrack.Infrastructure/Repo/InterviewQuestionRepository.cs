@@ -1,56 +1,27 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using TechTrack.Domain.Interfaces.IRepo;
 using TechTrack.Domain.Models;
+using TechTrack.Infrastructure.Data;
 
-namespace TechTrack.Infrastructure.Repository
+namespace TechTrack.Infrastructure.Repo
 {
-    public class InterviewQuestionRepository : IInterviewQuestionRepository
+    public class InterviewQuestionRepository : GenericRepository<InterviewQuestion>, IInterviewQuestionRepository
     {
-        private readonly List<InterviewQuestion> _questions = new();
-        private int _nextId = 1;
-
-        public async Task<IEnumerable<InterviewQuestion>> GetAllAsync()
+        public InterviewQuestionRepository(AppDbContext context) : base(context)
         {
-            return await Task.FromResult(_questions.AsEnumerable());
         }
 
-        public async Task<InterviewQuestion?> GetByIdAsync(int id)
+        public override async Task<IEnumerable<InterviewQuestion>> GetAllAsync()
         {
-            return await Task.FromResult(_questions.FirstOrDefault(q => q.QuestionId == id));
+            return await _dbSet.Include(q => q.Technology).ToListAsync();
         }
 
-        public async Task<InterviewQuestion> AddAsync(InterviewQuestion question)
+        public override async Task<InterviewQuestion?> GetByIdAsync(int id)
         {
-            question.QuestionId = _nextId++;
-            _questions.Add(question);
-            return await Task.FromResult(question);
-        }
-
-        public async Task<InterviewQuestion?> UpdateAsync(InterviewQuestion question)
-        {
-            var existing = _questions.FirstOrDefault(q => q.QuestionId == question.QuestionId);
-            if (existing == null)
-                return null;
-
-            existing.TechnologyId = question.TechnologyId;
-            existing.QuestionText = question.QuestionText;
-            existing.DifficultyLevel = question.DifficultyLevel;
-            existing.QuestionType = question.QuestionType;
-            existing.SampleAnswer = question.SampleAnswer;
-
-            return await Task.FromResult(existing);
-        }
-
-        public async Task<bool> DeleteAsync(int id)
-        {
-            var question = _questions.FirstOrDefault(q => q.QuestionId == id);
-            if (question == null)
-                return false;
-
-            _questions.Remove(question);
-            return await Task.FromResult(true);
+            return await _dbSet.Include(q => q.Technology)
+                               .FirstOrDefaultAsync(q => q.QuestionId == id);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿namespace TechPathNavigator.Domain.Common.Results
+﻿
+namespace TechPathNavigator.Domain.Common.Results
 {
     public class ServiceResult<T>
     {
@@ -9,6 +10,11 @@
         public static ServiceResult<T> Ok(T data) => new ServiceResult<T> { Success = true, Data = data };
         public static ServiceResult<T> Fail(params string[] errors) => new ServiceResult<T> { Success = false, Errors = errors.ToList() };
         public static ServiceResult<T> Fail(IEnumerable<string> errors) => new ServiceResult<T> { Success = false, Errors = errors.ToList() };
+
+        public IEnumerable<object> GroupBy(Func<object, object> value)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
 

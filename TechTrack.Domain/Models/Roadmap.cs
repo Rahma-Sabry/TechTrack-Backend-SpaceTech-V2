@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TechTrack.Domain.Models
 {
@@ -14,6 +14,9 @@ namespace TechTrack.Domain.Models
         public string? Title { get; set; }
         public string? Description { get; set; }
 
+        [NotMapped]
         public List<string> Steps { get; set; } = new List<string>();
+
+        public ICollection<RoadmapStep>? RoadmapSteps { get; set; }
     }
 }
